@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 1.05
+          "height": 2.5,
+          "width": 0.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -448,7 +448,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Pcie-USB-converter.kicad_pro",
+    "filename": "PCI2USB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -639,6 +639,14 @@
     [
       "513f496d-ec7a-4c1e-814f-35a10c718f03",
       "Root"
+    ],
+    [
+      "c66d1eec-955e-444d-af71-f46ce926b72b",
+      "Signals"
+    ],
+    [
+      "629b4a48-e6d7-42dc-ba97-ab0ac334522d",
+      "Power Section"
     ]
   ],
   "text_variables": {}

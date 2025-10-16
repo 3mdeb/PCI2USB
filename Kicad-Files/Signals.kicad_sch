@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3a82f392-0d86-4ed1-9841-e8866043f29d")
+	(paper "A4")
+	(title_block
+		(title "PCI2USB")
+		(date "2025-10-13")
+		(rev "1.0.0")
+		(company "3mdeb Sp. z o.o")
+		(comment 1 "Signals")
+		(comment 2 "Jakub Sobota")
+	)
+	(lib_symbols)
+)
