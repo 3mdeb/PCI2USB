@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "M.2")(type "KiCad")(uri "${KIPRJMOD}/M.2.pretty")(options "")(descr ""))
+  (lib (name "DC-DC_Converter")(type "KiCad")(uri "${KIPRJMOD}/DC-DC_Converter.pretty")(options "")(descr ""))
+)
