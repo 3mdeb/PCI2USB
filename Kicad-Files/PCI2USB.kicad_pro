@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.5,
-          "width": 0.35
+          "drill": 1.1,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -59,6 +59,26 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|155147957|127257957|202e6d82-1695-4452-a83e-539026c55cd8|65578306-a908-4a72-b2cf-a491df23fd57",
+          ""
+        ],
+        [
+          "clearance|155147957|128910952|202e6d82-1695-4452-a83e-539026c55cd8|7c625a73-1fdb-47c4-bec8-8edcc47a6bac",
+          ""
+        ],
+        [
+          "extra_footprint|146147957|130610952|d8a12352-c010-4634-bb68-f9006d8d62c9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|150850000|119575000|f2d40e11-b25a-474e-8be1-9e2ebc3b9c9f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|150850000|119575000|f2d40e11-b25a-474e-8be1-9e2ebc3b9c9f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "track_dangling|140775000|98700000|267fb399-e8dc-4b2e-b0c6-898e14bf4432|00000000-0000-0000-0000-000000000000",
           ""
@@ -140,7 +160,7 @@
         "min_silk_clearance": 0.2,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -642,11 +662,15 @@
     ],
     [
       "c66d1eec-955e-444d-af71-f46ce926b72b",
-      "Signals"
+      "TUSB7320 (page 2)"
     ],
     [
       "629b4a48-e6d7-42dc-ba97-ab0ac334522d",
-      "Power Section"
+      "USB Power"
+    ],
+    [
+      "641a18fa-9239-44e7-9711-1a374441a862",
+      "1.1V Regulator"
     ]
   ],
   "text_variables": {}
