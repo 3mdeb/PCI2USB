@@ -2112,7 +2112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "20%, 5A"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1%, 63mW"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -2382,7 +2382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1%, 63mW"
 			(at 105.41 115.57 0)
 			(effects
 				(font
@@ -2734,7 +2734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1%, 200mW"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1%, 200mW"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "Value" "4A"
+		(property "Value" "5A"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -3351,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse, small symbol"
+		(property "Description" "Fast Act Fuse"
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse, small symbol"
+		(property "Description" "Fast Act Fuse"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33 μF"
+		(property "Value" "22 μF"
 			(at 159.258 83.058 0)
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "X7R, 10%, 6.3V"
+		(property "Description" "X5R, 10%, 6.3V"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33 μF"
+		(property "Value" "22 μF"
 			(at 174.244 83.312 0)
 			(effects
 				(font
@@ -3756,7 +3756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 171.45 81.28 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "X7R, 10%, 6.3V"
+		(property "Description" "X5R, 10%, 6.3V"
 			(at 171.45 81.28 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PCI2USB")
-		(date "2025-10-27")
+		(date "2025-10-29")
 		(rev "1.0.0")
 		(company "3mdeb Sp. z o.o")
 		(comment 1 "1.1V Regulator")
@@ -135,6 +135,143 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1499,6 +1636,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 96.52) (xy 86.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84038a60-a8a3-4449-b962-c1f2b918a633")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 142.24 85.09)
 		)
 		(stroke
@@ -1509,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 86.36 96.52)
+			(xy 71.12 96.52) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -1704,7 +1851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -1713,7 +1860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X5R, 10%, 6.3V"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -1739,7 +1886,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 81.28 96.52 90)
+		(at 71.12 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1748,7 +1895,7 @@
 		(fields_autoplaced yes)
 		(uuid "2940ccec-4a5e-49b9-baa0-a6f717373964")
 		(property "Reference" "#PWR011"
-			(at 85.09 96.52 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1904,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.47 96.5199 90)
+			(at 67.31 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 96.52 0)
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 96.52 0)
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.28 96.52 0)
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -1841,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -1850,7 +1997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1%, 100mW"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -2033,7 +2180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -2042,7 +2189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -2051,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "0.05%, 62.5mW"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -2102,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -2111,7 +2258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/1/GRM155R70J104KA01-01A.pdf"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -2120,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X7R, 10%, 6.3V"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -2179,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps74401"
 			(at 128.27 83.82 0)
 			(effects
 				(font
@@ -2359,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -2368,7 +2515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -2377,7 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1%, 100mW"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -2429,7 +2576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 86.36 100.33 0)
 			(effects
 				(font
@@ -2438,7 +2585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/308/1/APHD1608LCGCK.pdf"
 			(at 86.36 100.33 0)
 			(effects
 				(font
@@ -2447,7 +2594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "GREEN Light emitting diode"
 			(at 86.36 100.33 0)
 			(effects
 				(font
@@ -2488,10 +2635,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "870b6737-3798-413b-83cb-6662c2ee5bab")
 		(property "Reference" "C5"
-			(at 118.11 104.1462 0)
+			(at 117.348 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,17 +2645,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 118.11 106.6862 0)
+		(property "Value" "NOPOP"
+			(at 117.602 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -2527,7 +2672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "NOPOP"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -2643,7 +2788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -2652,7 +2797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -2661,7 +2806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1%, 63mW"
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -2778,7 +2923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -2787,7 +2932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -2796,7 +2941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1%, 100mW"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -3020,6 +3165,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 78.74 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e31a1e-996e-42f0-9331-7a84a3577ecd")
+		(property "Reference" "F3"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28747"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fast Act Fuse"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "297aad32-168d-424f-ba52-64b9b66c5482")
+		)
+		(pin "1"
+			(uuid "49b1cc01-c251-416b-943d-b78668f4054c")
+		)
+		(instances
+			(project "PCI2USB"
+				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 105.41 0)
 		(unit 1)
@@ -3113,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -3122,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR70J106KA73-01A.pdf"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -3131,7 +3344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X7R, 10%, 6.3V"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -3183,7 +3396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -3192,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/1/GRM155R70J104KA01-01A.pdf"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -3201,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "X7R, 10%, 6.3V"
 			(at 157.48 88.9 0)
 			(effects
 				(font

@@ -2897,7 +2897,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c66d1eec-955e-444d-af71-f46ce926b72b")
-		(property "Sheetname" "TUSB7320 (page 2)"
+		(property "Sheetname" "TUSB7320"
 			(at 40.64 -14.6816 0)
 			(effects
 				(font
