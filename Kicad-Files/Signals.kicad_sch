@@ -17,23 +17,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U2"
+				(at 14.8433 -60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TUSB7340"
-				(at 0 -2.54 0)
+			(property "Value" "TUSB7320"
+				(at 14.8433 -63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_S-PWQFN-N100_EP5.5x5.5mm_ThermalVias"
+			(property "Footprint" "TUSB7320:Texas_tusb7340"
 				(at 58.42 -60.96 0)
 				(effects
 					(font
@@ -1037,7 +1039,7 @@
 				(pin power_in line
 					(at 0 -63.5 90)
 					(length 5.08)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1073,7 +1075,7 @@
 				(pin power_in line
 					(at 2.54 -63.5 90)
 					(length 5.08)
-					(name "VSS_EP"
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1088,10 +1090,11 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 5.08 -63.5 90)
 					(length 5.08)
-					(name "VSS"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1124,10 +1127,11 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 7.62 -63.5 90)
 					(length 5.08)
-					(name "VSS"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,10 +1164,11 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 10.16 -63.5 90)
 					(length 5.08)
-					(name "VSS"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1196,10 +1201,11 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 12.7 -63.5 90)
 					(length 5.08)
-					(name "VSS"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1610,10 +1616,11 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 63.5 10.16 180)
 					(length 5.08)
-					(name "USB_DP_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1628,10 +1635,11 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 63.5 7.62 180)
 					(length 5.08)
-					(name "USB_DM_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1646,10 +1654,11 @@
 						)
 					)
 				)
-				(pin output line
+				(pin no_connect line
 					(at 63.5 5.08 180)
 					(length 5.08)
-					(name "USB_SSTXP_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1664,10 +1673,11 @@
 						)
 					)
 				)
-				(pin output line
+				(pin no_connect line
 					(at 63.5 2.54 180)
 					(length 5.08)
-					(name "USB_SSTXN_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1682,10 +1692,11 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 0 180)
 					(length 5.08)
-					(name "USB_SSRXP_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1700,10 +1711,11 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 -2.54 180)
 					(length 5.08)
-					(name "USB_SSRXN_DN3"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1718,10 +1730,11 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 63.5 -7.62 180)
 					(length 5.08)
-					(name "USB_DP_DN4"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1736,10 +1749,11 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 63.5 -10.16 180)
 					(length 5.08)
-					(name "USB_DM_DN4"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1754,10 +1768,11 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 -12.7 180)
 					(length 5.08)
-					(name "USB_SSTXP_DN4"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1772,9 +1787,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 -15.24 180)
 					(length 5.08)
+					(hide yes)
 					(name "USB_SSTXN_DN4"
 						(effects
 							(font
@@ -1782,7 +1798,7 @@
 							)
 						)
 					)
-					(number "A8"
+					(number "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1790,10 +1806,11 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 -17.78 180)
 					(length 5.08)
-					(name "USB_SSRXP_DN4"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1808,10 +1825,11 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 63.5 -20.32 180)
 					(length 5.08)
-					(name "USB_SSRXN_DN4"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,6 +2008,209 @@
 				)
 			)
 			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 86.36 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608b4cab-04ad-4ed6-a011-4500ba67e2cd")
+	)
+	(wire
+		(pts
+			(xy 86.36 151.13) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598d3441-cd91-4bdd-9058-46af5ad541c4")
+	)
+	(wire
+		(pts
+			(xy 88.9 151.13) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6875cca-4f9d-45af-8a59-afae01b436c7")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f591ee46-3781-4b72-9a17-c6066fa79a52")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f1421af-475f-4301-a1e0-bc91b27d4a94")
+		(property "Reference" "#PWR026"
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9cd876b-70d9-4146-bed2-86a2d36e40df")
+		)
+		(instances
+			(project ""
+				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/c66d1eec-955e-444d-af71-f46ce926b72b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2248,7 +2469,7 @@
 		(pin "A21"
 			(uuid "a88e23d6-5a8c-40e7-a6dd-75fa2cf992f1")
 		)
-		(pin "A8"
+		(pin "NC"
 			(uuid "68af0995-5ef7-4247-a504-e1273328429b")
 		)
 		(pin "B21"
