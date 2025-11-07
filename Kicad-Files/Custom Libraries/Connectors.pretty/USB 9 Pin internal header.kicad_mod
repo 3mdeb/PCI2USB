@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -10.1475 -4.6)
-		(end 10.2125 -4.6)
+		(start -6.3 -2.61)
+		(end 6.4 -2.61)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -65,18 +65,28 @@
 		(uuid "d797a39c-6919-45d7-8867-4642fedfe4b3")
 	)
 	(fp_line
-		(start -10.1475 4.5)
-		(end -10.1475 -4.6)
+		(start -6.3 2.47)
+		(end -6.3 -2.61)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "70cb128e-4b5c-4720-9ce7-f957d10f1e69")
 	)
 	(fp_line
-		(start -2.2425 4.5)
-		(end -10.1475 4.5)
+		(start 6.4 -2.61)
+		(end 6.4 2.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77f58710-ea6a-4e12-b480-c28bb94262ff")
+	)
+	(fp_line
+		(start 6.4 2.47)
+		(end -6.3 2.47)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -84,43 +94,13 @@
 		(layer "F.SilkS")
 		(uuid "75bda241-6f47-4ea6-a003-efb7265a25c4")
 	)
-	(fp_line
-		(start 2.3025 4.9)
-		(end -2.1975 4.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "dd5a3a8b-87ca-4a71-bd27-c6bc473467b2")
-	)
-	(fp_line
-		(start 10.2525 -4.6)
-		(end 10.2525 4.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "77f58710-ea6a-4e12-b480-c28bb94262ff")
-	)
-	(fp_line
-		(start 10.2525 4.5)
-		(end 2.3475 4.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3927e4c9-c1ab-4d0f-b8f7-85b70eec334e")
-	)
-	(pad "1" thru_hole circle
-		(at -5.0475 1.22)
-		(size 2 2)
+	(pad "1" thru_hole rect
+		(at -5.0475 1.2)
+		(size 2 2.1)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "517d011e-d3cb-439f-a72e-29295f3bb7e5")
+		(uuid "58f823fd-98a4-4a48-bab8-0ff7b1864f56")
 	)
 	(pad "2" thru_hole circle
 		(at -5.0475 -1.34)
@@ -186,13 +166,13 @@
 		(remove_unused_layers no)
 		(uuid "0f10729a-fb92-4d40-b191-d3b3513cb924")
 	)
-	(pad "NC" thru_hole rect
-		(at 5.0925 1.2)
-		(size 2 2.1)
+	(pad "NC" thru_hole circle
+		(at 5.0925 1.18)
+		(size 2 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "58f823fd-98a4-4a48-bab8-0ff7b1864f56")
+		(uuid "517d011e-d3cb-439f-a72e-29295f3bb7e5")
 	)
 	(embedded_fonts no)
 )
