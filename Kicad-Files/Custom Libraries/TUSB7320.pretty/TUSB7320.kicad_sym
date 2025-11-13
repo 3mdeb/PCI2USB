@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U2"
-			(at 14.8433 -60.96 0)
+			(at 4.6833 -60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "TUSB7320"
-			(at 14.8433 -63.5 0)
+			(at 4.6833 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -63.5 22.86 0)
 				(length 5.08)
 				(name "CLKREQ#"
@@ -338,6 +338,24 @@
 			(pin input line
 				(at -63.5 -2.54 0)
 				(length 5.08)
+				(name "JTAG_RST#"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -63.5 -5.08 0)
+				(length 5.08)
 				(name "JTAG_TCK"
 					(effects
 						(font
@@ -353,8 +371,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -63.5 -5.08 0)
+			(pin no_connect line
+				(at -63.5 -7.62 0)
 				(length 5.08)
 				(name "JTAG_TMS"
 					(effects
@@ -371,8 +389,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -63.5 -7.62 0)
+			(pin no_connect line
+				(at -63.5 -10.16 0)
 				(length 5.08)
 				(name "JTAG_TDO"
 					(effects
@@ -389,25 +407,7 @@
 					)
 				)
 			)
-			(pin input line
-				(at -63.5 -10.16 0)
-				(length 5.08)
-				(name "JTAG_RST#"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
+			(pin no_connect line
 				(at -63.5 -12.7 0)
 				(length 5.08)
 				(name "JTAG_TDI"
@@ -1425,7 +1425,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 40.64 180)
 				(length 5.08)
 				(name "USB_SSTXP_DN1"
@@ -1443,7 +1443,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 38.1 180)
 				(length 5.08)
 				(name "USB_SSTXN_DN1"
@@ -1461,7 +1461,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 35.56 180)
 				(length 5.08)
 				(name "USB_SSRXP_DN1"
@@ -1479,7 +1479,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 33.02 180)
 				(length 5.08)
 				(name "USB_SSRXN_DN1"
@@ -1533,7 +1533,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 22.86 180)
 				(length 5.08)
 				(name "USB_SSTXP_DN2"
@@ -1551,7 +1551,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 20.32 180)
 				(length 5.08)
 				(name "USB_SSTXN_DN2"
@@ -1569,7 +1569,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 17.78 180)
 				(length 5.08)
 				(name "USB_SSRXP_DN2"
@@ -1587,7 +1587,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 15.24 180)
 				(length 5.08)
 				(name "USB_SSRXN_DN2"
@@ -1905,9 +1905,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 -35.56 180)
 				(length 5.08)
+				(hide yes)
 				(name "PWRON3#"
 					(effects
 						(font
@@ -1923,9 +1924,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 -38.1 180)
 				(length 5.08)
+				(hide yes)
 				(name "OVERCUR3#"
 					(effects
 						(font
@@ -1941,9 +1943,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 -40.64 180)
 				(length 5.08)
+				(hide yes)
 				(name "PWRON4#"
 					(effects
 						(font
@@ -1959,9 +1962,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 63.5 -43.18 180)
 				(length 5.08)
+				(hide yes)
 				(name "OVERCUR4#"
 					(effects
 						(font
@@ -1977,7 +1981,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 63.5 -48.26 180)
 				(length 5.08)
 				(name "SMI"

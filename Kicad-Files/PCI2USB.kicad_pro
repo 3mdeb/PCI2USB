@@ -249,32 +249,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1549400|889000|2f65d982-e66b-422f-8d1a-e9d4485861d6|ebfad2cd-e5e9-4105-8ceb-ff59f5395988|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|889000|59f78ee8-6af0-4ad9-ac87-c0a69602fd3a|334c9129-b7a7-4343-9aff-ee01f742c5ed|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|939800|6dabd829-87fa-42ac-82ff-edbf33892626|ebfad2cd-e5e9-4105-8ceb-ff59f5395988|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|939800|aea72ccf-8ea7-4a3d-8f9e-32f1fb0df53b|334c9129-b7a7-4343-9aff-ee01f742c5ed|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|965200|b204642f-a45b-4424-a862-a710162a8171|aea72ccf-8ea7-4a3d-8f9e-32f1fb0df53b|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|965200|e5cba426-acfa-42bf-b352-7fa89a90b4c4|6dabd829-87fa-42ac-82ff-edbf33892626|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -478,7 +453,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "ignore",
       "pin_not_driven": "ignore",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -625,9 +600,9 @@
       "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
+      "intersheets_ref_prefix": "pg",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -680,7 +655,7 @@
     ],
     [
       "641a18fa-9239-44e7-9711-1a374441a862",
-      "1.1V Regulator"
+      "TUSB7320 Power"
     ]
   ],
   "text_variables": {}

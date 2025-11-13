@@ -3,4 +3,6 @@
   (lib (name "TPS61023")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/DC-DC_Converter.pretty/TPS61023.kicad_sym")(options "")(descr ""))
   (lib (name "TUSB7320")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/TUSB7320.pretty/TUSB7320.kicad_sym")(options "")(descr ""))
   (lib (name "TPS74401")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/TPS74401.kicad_sym")(options "")(descr ""))
+  (lib (name "M2_Edge_connector")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/M2_Edge_connector.kicad_sym")(options "")(descr ""))
+  (lib (name "M2_connecctor")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/M2_Edge_connector.pretty/M2_connecctor.kicad_sym")(options "")(descr ""))
 )
