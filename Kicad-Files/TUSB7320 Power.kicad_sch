@@ -1454,7 +1454,7 @@
 		)
 	)
 	(rectangle
-		(start 41.91 97.79)
+		(start 44.45 97.79)
 		(end 203.2 142.24)
 		(stroke
 			(width 0)
@@ -1491,7 +1491,7 @@
 	)
 	(text "1.1V LINE CAPACITORS"
 		(exclude_from_sim no)
-		(at 60.452 97.028 0)
+		(at 61.976 95.758 0)
 		(effects
 			(font
 				(size 1.8288 1.8288)

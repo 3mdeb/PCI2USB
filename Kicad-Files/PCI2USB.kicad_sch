@@ -2714,8 +2714,8 @@
 		(uuid 2637fb75-e5c1-4953-acdc-be9a499e6246)
 	)
 	(rectangle
-		(start 175.26 86.36)
-		(end 270.51 120.65)
+		(start 176.53 40.64)
+		(end 271.78 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -2725,9 +2725,32 @@
 		)
 		(uuid 7bfdd42c-a970-45ac-87b9-a3b6bc3fde5c)
 	)
+	(text "VIA AND TRACE REQUIREMENTS:"
+		(exclude_from_sim no)
+		(at 201.93 88.138 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.3658)
+				(bold yes)
+			)
+		)
+		(uuid "405fe282-2ccb-4f7e-9ca1-5c24d8fb947b")
+	)
+	(text "-MIN VIA PAD SIZE 20mils\n-MIN spacing between trace and pad is 5mils\n-MIN spacing between VIA and pad is 5mils\n-MIN width of trace is 4mils"
+		(exclude_from_sim no)
+		(at 179.07 97.536 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "5738a946-a317-4bf3-b295-1c403141e983")
+	)
 	(text "DOWNSTREAM\nPORT1 / PORT2"
 		(exclude_from_sim no)
-		(at 223.012 82.042 0)
+		(at 224.282 36.322 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2736,6 +2759,40 @@
 			)
 		)
 		(uuid "6bbbc18d-d7ed-4ecb-b4fa-594530cce0e7")
+	)
+	(text "IMPEDANCE REQUIREMENTS:"
+		(exclude_from_sim no)
+		(at 198.628 106.934 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.3658)
+				(bold yes)
+			)
+		)
+		(uuid "795a47c5-6ade-44ed-8080-ce2a0d4b2f3f")
+	)
+	(text "-USB_DP/M must be 90-ohm differential (+/-15%)\n-PCIE_TXP/N must be 100-ohms differential (+/-10%)\n-PCIE_RXP/N must be 100-ohms differential (+/-10%)\n-PCIE_REFCLKP/N must be 100-ohms differential (+/-10%)"
+		(exclude_from_sim no)
+		(at 178.562 115.824 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "9646effb-272c-4e66-85b5-6573f7b8ef86")
+	)
+	(text "-USB_DP/M within 25mils\n-PCIE_TXP/N within 5mils\n-PCIE_RXP/N within 5mils\n-PCIE_REFCLKP/N within 25mils"
+		(exclude_from_sim no)
+		(at 178.562 134.112 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "a66cf9ba-084a-4945-b382-2ed9580c9bbd")
 	)
 	(text "PCIe\nM2 Key M+B"
 		(exclude_from_sim no)
@@ -2748,6 +2805,18 @@
 			)
 		)
 		(uuid "d6e4e5f8-919b-4dd8-9d75-309a8ea4681b")
+	)
+	(text "LENGTH MATCHING REQUIREMENTS:"
+		(exclude_from_sim no)
+		(at 204.216 124.714 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.3658)
+				(bold yes)
+			)
+		)
+		(uuid "fa9b8eb8-e717-481e-a76a-b049549c54a8")
 	)
 	(junction
 		(at 129.54 81.28)
@@ -2909,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 106.68) (xy 236.22 106.68)
+			(xy 233.68 60.96) (xy 237.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +3048,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 250.19 114.3)
+			(xy 236.22 68.58) (xy 251.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 102.87) (xy 201.93 102.87)
+			(xy 212.09 57.15) (xy 203.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 106.68) (xy 236.22 107.95)
+			(xy 237.49 60.96) (xy 237.49 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 102.87) (xy 240.03 102.87)
+			(xy 237.49 57.15) (xy 241.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3238,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 194.31 114.3)
+			(xy 213.36 68.58) (xy 195.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 107.95) (xy 240.03 107.95)
+			(xy 237.49 62.23) (xy 241.3 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 104.14) (xy 236.22 102.87)
+			(xy 237.49 58.42) (xy 237.49 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 234.95 109.22)
+			(xy 236.22 68.58) (xy 236.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 109.22) (xy 212.09 114.3)
+			(xy 213.36 63.5) (xy 213.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 191.77 107.95)
+			(xy 190.5 62.23) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 97.79) (xy 237.49 101.6)
+			(xy 238.76 52.07) (xy 238.76 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 106.68) (xy 210.82 106.68)
+			(xy 215.9 60.96) (xy 212.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 214.63 101.6)
+			(xy 209.55 55.88) (xy 215.9 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 210.82 107.95)
+			(xy 212.09 60.96) (xy 212.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 102.87) (xy 256.54 102.87)
+			(xy 251.46 57.15) (xy 257.81 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 109.22) (xy 232.41 109.22)
+			(xy 236.22 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 107.95) (xy 201.93 107.95)
+			(xy 212.09 62.23) (xy 203.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 210.82 104.14)
+			(xy 215.9 58.42) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 104.14) (xy 236.22 104.14)
+			(xy 233.68 58.42) (xy 237.49 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 107.95) (xy 256.54 107.95)
+			(xy 251.46 62.23) (xy 257.81 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 109.22) (xy 212.09 109.22)
+			(xy 215.9 63.5) (xy 213.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 210.82 102.87)
+			(xy 212.09 58.42) (xy 212.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 191.77 102.87)
+			(xy 190.5 57.15) (xy 193.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 101.6) (xy 232.41 101.6)
+			(xy 238.76 55.88) (xy 233.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 97.79) (xy 208.28 101.6)
+			(xy 209.55 52.07) (xy 209.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3908,7 @@
 	)
 	(global_label "DS1_VBUS"
 		(shape input)
-		(at 250.19 114.3 0)
+		(at 251.46 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3849,7 +3918,7 @@
 		)
 		(uuid "031fce74-d88c-45b2-8870-f95ae7454a16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.7304 114.3 0)
+			(at 264.0004 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3929,7 @@
 	)
 	(global_label "DS2_VBUS"
 		(shape input)
-		(at 194.31 114.3 180)
+		(at 195.58 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3870,7 +3939,7 @@
 		)
 		(uuid "0cfe86af-35da-4597-b1ac-a24379c6a4a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7696 114.3 0)
+			(at 183.0396 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3950,7 @@
 	)
 	(global_label "DM2"
 		(shape input)
-		(at 189.23 107.95 180)
+		(at 190.5 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3891,7 +3960,7 @@
 		)
 		(uuid "1b20dcb2-848f-4879-a7f6-a1a720cf9b09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3139 107.95 0)
+			(at 183.5839 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3971,7 @@
 	)
 	(global_label "DP1"
 		(shape input)
-		(at 256.54 102.87 0)
+		(at 257.81 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3912,7 +3981,7 @@
 		)
 		(uuid "20706cf5-8eb8-4586-8d0d-960dbbf1ed5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2747 102.87 0)
+			(at 264.5447 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4013,7 @@
 	)
 	(global_label "DP2"
 		(shape input)
-		(at 189.23 102.87 180)
+		(at 190.5 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3954,7 +4023,7 @@
 		)
 		(uuid "4b43c160-f3c1-4681-a03b-f9ef433c0794")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4953 102.87 0)
+			(at 183.7653 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4097,7 @@
 	)
 	(global_label "DM1"
 		(shape input)
-		(at 256.54 107.95 0)
+		(at 257.81 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4038,7 +4107,7 @@
 		)
 		(uuid "ad3585ee-0cf9-433c-ada7-cfcc2a7260df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.4561 107.95 0)
+			(at 264.7261 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 97.79 180)
+		(at 238.76 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4209,7 +4278,7 @@
 		(fields_autoplaced yes)
 		(uuid "083e13de-77e8-43c9-b72b-dab28f37e3ea")
 		(property "Reference" "#PWR021"
-			(at 237.49 91.44 0)
+			(at 238.76 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 92.71 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 97.79 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 97.79 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 97.79 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4672,7 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x405NL")
-		(at 245.11 105.41 180)
+		(at 246.38 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4612,7 +4681,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b2f5f6e-6008-48dc-8906-ee005d1323b9")
 		(property "Reference" "FL2"
-			(at 245.491 97.79 0)
+			(at 246.761 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4689,7 @@
 			)
 		)
 		(property "Value" "90 Ohm"
-			(at 245.491 100.33 0)
+			(at 246.761 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" "Filters:MCZ1210AH_CP"
-			(at 245.11 105.41 0)
+			(at 246.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_mcz1210ah_en.pdf?ref_disty=mouser"
-			(at 245.11 105.41 0)
+			(at 246.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4715,7 @@
 			)
 		)
 		(property "Description" "100 mA, 25%"
-			(at 245.11 105.41 0)
+			(at 246.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4746,7 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x405NL")
-		(at 196.85 105.41 0)
+		(at 198.12 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4686,7 +4755,7 @@
 		(fields_autoplaced yes)
 		(uuid "63dfd41e-720b-4c57-9155-f552f741b560")
 		(property "Reference" "FL1"
-			(at 196.469 97.79 0)
+			(at 197.739 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4763,7 @@
 			)
 		)
 		(property "Value" "90 Ohm"
-			(at 196.469 100.33 0)
+			(at 197.739 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +4771,7 @@
 			)
 		)
 		(property "Footprint" "Filters:MCZ1210AH_CP"
-			(at 196.85 105.41 0)
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_mcz1210ah_en.pdf?ref_disty=mouser"
-			(at 196.85 105.41 0)
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4789,7 @@
 			)
 		)
 		(property "Description" "100 mA, 25%"
-			(at 196.85 105.41 0)
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4888,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 97.79 180)
+		(at 209.55 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4828,7 +4897,7 @@
 		(fields_autoplaced yes)
 		(uuid "8891bb2a-4031-4c06-855d-faa3641b7cac")
 		(property "Reference" "#PWR019"
-			(at 208.28 91.44 0)
+			(at 209.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 92.71 0)
+			(at 209.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 97.79 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 97.79 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 97.79 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5154,7 @@
 	)
 	(symbol
 		(lib_id "Connectors:USB_9PIN_Internal")
-		(at 227.33 104.14 180)
+		(at 228.6 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5094,7 +5163,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeee4fb7-a895-46b7-9e31-1efad0fe8837")
 		(property "Reference" "J2"
-			(at 223.52 91.44 0)
+			(at 224.79 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5171,7 @@
 			)
 		)
 		(property "Value" "USB_9PIN_Internal"
-			(at 223.52 93.98 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5179,7 @@
 			)
 		)
 		(property "Footprint" "Connectors:USB 9 Pin internal header"
-			(at 226.06 104.14 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5188,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf"
-			(at 226.06 104.14 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5197,7 @@
 			)
 		)
 		(property "Description" "2.54mm pitch"
-			(at 227.33 104.14 0)
+			(at 228.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
