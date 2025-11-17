@@ -1,0 +1,186 @@
+(footprint "MCZ1210AH_CP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-CNSW SMT Common Mode Line Filter, https://www.we-online.com/components/products/datasheet/744232090.pdf")
+	(tags "common mode choke 1206 cnsw")
+	(property "Reference" "REF**"
+		(at 0.3 -0.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "39e2c187-b7ee-4988-bbb2-7c00e844f2c8")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Value" " Common Mode Line Filters TDK MCZ1210AH900L2TA0G"
+		(at 1.9 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b23ad3eb-db19-497f-b695-b0113c288589")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53b81999-0fab-4bea-9fa5-c6c66e6adafe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0c6aded-6e68-47dd-a2c6-172761aefca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -0.25)
+		(end 1.6 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ccd9744-ed8f-482e-9399-f6c7ddf78a3c")
+	)
+	(fp_line
+		(start -0.1 0.7)
+		(end 1.6 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df13c886-213a-44a4-b10e-de0c54e34955")
+	)
+	(fp_rect
+		(start -0.171939 -0.295708)
+		(end 1.678061 0.754292)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "88299a45-05bf-4080-a8f5-81ced790bf11")
+	)
+	(fp_line
+		(start -0.122668 0.11435)
+		(end -0.122668 0.36435)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "133de799-0f34-4c41-b30a-92437ce114f0")
+	)
+	(fp_line
+		(start 1.103963 -0.163716)
+		(end 0.403963 -0.163716)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8d71917-7f57-4af7-ae8b-c8664c18b226")
+	)
+	(fp_line
+		(start 1.103963 0.686284)
+		(end 0.403963 0.686284)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a1af125-47d6-4e70-95aa-9e4c99108581")
+	)
+	(fp_line
+		(start 1.631805 0.111421)
+		(end 1.631805 0.361421)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5ba650a-0fb2-47ec-9244-45e696d1cf1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.7 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03f80beb-f5ca-4cf1-9f41-4237886d3901")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.35 0.5)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "fff0acd6-2c72-4870-a1f8-3ad71d7ad0fc")
+	)
+	(pad "2" smd roundrect
+		(at 1.35 -0.05)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "5e630c78-6e28-472a-92f5-301997c3e96b")
+	)
+	(pad "3" smd roundrect
+		(at 0.15 -0.05)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "e5d31eee-97d4-4bd2-b881-3d6136889381")
+	)
+	(pad "4" smd roundrect
+		(at 0.15 0.5)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "ca3b391d-9866-48ec-9806-f5aaa278936a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

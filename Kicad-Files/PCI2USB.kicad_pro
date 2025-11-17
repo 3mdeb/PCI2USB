@@ -249,7 +249,72 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1231900|1612900|c5e1dfe9-a188-4c68-a50e-97798a286ffe|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1244600|546100|1cd3a307-a04c-470e-a09f-cbbb2b6d4882|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1257300|596900|73219c70-a3c2-4eed-a58a-48aaac532127|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1663700|952500|c94c1ee7-33de-4385-95ad-a9623da9393a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1968500|1054100|63dfd41e-720b-4c57-9155-f552f741b560|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2273300|1041400|aeee4fb7-a895-46b7-9e31-1efad0fe8837|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2451100|1054100|5b2f5f6e-6008-48dc-8906-ee005d1323b9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|584200|673100|bf4faf6a-89dc-4f34-ab6f-ddb39f07d484|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|736600|1092200|ee02ceb8-115a-468c-8bf4-3e1593cfa588|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|863600|1092200|597a6d11-d034-4034-b8a7-26399e12e961|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|863600|1524000|6e6962dc-5aaf-48f4-baca-28e1899428a8|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1143000|444500|01578567-aa4d-45a9-b4ec-d21f5652d1c1|00000000-0000-0000-0000-000000000000|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|/513f496d-ec7a-4c1e-814f-35a10c718f03/641a18fa-9239-44e7-9711-1a374441a862|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1371600|1473200|9e87b2cb-7592-4cd5-99b8-ceb8480bc5d8|00000000-0000-0000-0000-000000000000|/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d|/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1943100|317500|cf202fd1-7900-4d24-a02e-ef2208377872|00000000-0000-0000-0000-000000000000|/513f496d-ec7a-4c1e-814f-35a10c718f03/c66d1eec-955e-444d-af71-f46ce926b72b|/513f496d-ec7a-4c1e-814f-35a10c718f03/c66d1eec-955e-444d-af71-f46ce926b72b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2324100|1092200|cda01268-4fa1-443e-a3d7-9f8394a2a7cf|00000000-0000-0000-0000-000000000000|/513f496d-ec7a-4c1e-814f-35a10c718f03|/513f496d-ec7a-4c1e-814f-35a10c718f03|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|457200|1574800|423f643b-07d9-4d2d-85dd-8c674ced5a33|00000000-0000-0000-0000-000000000000|/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d|/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -270,14 +335,14 @@
       ],
       [
         0,
-        2,
+        1,
         0,
         1,
         0,
         0,
         1,
         0,
-        2,
+        1,
         2,
         2,
         2
@@ -368,14 +433,14 @@
       ],
       [
         0,
-        2,
+        1,
         1,
         2,
         0,
         0,
         1,
         0,
-        2,
+        0,
         2,
         2,
         2
@@ -434,9 +499,9 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -451,16 +516,16 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "ignore",
-      "pin_not_driven": "ignore",
-      "pin_to_pin": "ignore",
-      "power_pin_not_driven": "ignore",
+      "pin_not_connected": "warning",
+      "pin_not_driven": "warning",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",

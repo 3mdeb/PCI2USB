@@ -5,4 +5,6 @@
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/Connectors.pretty")(options "")(descr ""))
   (lib (name "TUSB7320")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/TUSB7320.pretty")(options "")(descr ""))
   (lib (name "M2_Edge_connector")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/M2_Edge_connector.pretty")(options "")(descr ""))
+  (lib (name "Filters")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/Filters.pretty")(options "")(descr ""))
+  (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/Crystals.pretty")(options "")(descr ""))
 )
