@@ -541,7 +541,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U2"
-				(at 4.6833 -60.96 0)
+				(at -61.214 62.484 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -550,7 +550,7 @@
 				)
 			)
 			(property "Value" "TUSB7320"
-				(at 4.6833 -63.5 0)
+				(at -61.214 59.944 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -558,7 +558,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "TUSB7320:Texas_tusb7340"
+			(property "Footprint" "TUSB7320:Texas_tusb7320"
 				(at 58.42 -60.96 0)
 				(effects
 					(font
@@ -1595,24 +1595,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -63.5 90)
-					(length 5.08)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 5.08 -63.5 90)
 					(length 5.08)
@@ -2314,14 +2296,14 @@
 					(at 63.5 -15.24 180)
 					(length 5.08)
 					(hide yes)
-					(name "USB_SSTXN_DN4"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "NC"
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3069,12 +3051,6 @@
 		(uuid "cfa15156-0d50-4161-8099-7198b95ee87b")
 	)
 	(junction
-		(at 166.37 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d13e0253-1e09-4f14-819a-a14c25a7f22c")
-	)
-	(junction
 		(at 166.37 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3352,16 +3328,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 160.02) (xy 166.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31878d4f-8073-4387-8730-de5758fcdd5c")
-	)
-	(wire
-		(pts
 			(xy 138.43 27.94) (xy 138.43 31.75)
 		)
 		(stroke
@@ -3369,16 +3335,6 @@
 			(type default)
 		)
 		(uuid "31919bf1-5fcd-4d24-ae6b-e55d702870fe")
-	)
-	(wire
-		(pts
-			(xy 168.91 158.75) (xy 168.91 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c1375d-2f13-4929-95fd-461b03a63ac8")
 	)
 	(wire
 		(pts
@@ -4132,16 +4088,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 160.02) (xy 166.37 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c41022-5737-46c3-9f35-561b65fe7a64")
-	)
-	(wire
-		(pts
 			(xy 161.29 27.94) (xy 161.29 31.75)
 		)
 		(stroke
@@ -4322,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 158.75) (xy 166.37 160.02)
+			(xy 166.37 158.75) (xy 166.37 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +5732,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
-		(at 58.42 67.31 0)
+		(at 58.42 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5794,7 +5740,7 @@
 		(dnp no)
 		(uuid "a70df6c2-8456-47d6-95bc-4d122be6fa1a")
 		(property "Reference" "Y2"
-			(at 55.372 68.834 0)
+			(at 60.96 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5748,7 @@
 			)
 		)
 		(property "Value" "48 MHz"
-			(at 63.754 68.834 0)
+			(at 53.594 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +5895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TUSB7320:Texas_tusb7340"
+		(property "Footprint" "TUSB7320:Texas_tusb7320"
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -6108,9 +6054,6 @@
 		(pin "A5"
 			(uuid "ae873ce8-6daf-4598-a79c-f9c08f313e93")
 		)
-		(pin "A53"
-			(uuid "5678accf-1af4-4801-a2b5-e05afd7de9bf")
-		)
 		(pin "A16"
 			(uuid "b33649e2-f62a-4ec3-9d06-8d8fec50590c")
 		)
@@ -6176,9 +6119,6 @@
 		)
 		(pin "A21"
 			(uuid "a88e23d6-5a8c-40e7-a6dd-75fa2cf992f1")
-		)
-		(pin "NC"
-			(uuid "68af0995-5ef7-4247-a504-e1273328429b")
 		)
 		(pin "B21"
 			(uuid "7420781f-1223-46c6-be2e-09b65a40ed89")
@@ -6290,6 +6230,9 @@
 		)
 		(pin "B5"
 			(uuid "7f3d928e-3ea2-451d-830a-6f06ceb77b6a")
+		)
+		(pin "A8"
+			(uuid "013f1c85-31d6-43ab-b9bb-40c61488b5d7")
 		)
 		(instances
 			(project ""

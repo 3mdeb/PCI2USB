@@ -1326,24 +1326,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
+			(property "Reference" "J1"
+				(at 5.334 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 5.334 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "M2_Edge_connector:M.2_KEY_M_B"
+				(at -2.286 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1371,7 +1372,7 @@
 			)
 			(symbol "M.2_Key_M_B_0_1"
 				(rectangle
-					(start -7.62 -2.54)
+					(start -7.62 0)
 					(end 22.86 -85.09)
 					(stroke
 						(width 0.254)
@@ -1396,8 +1397,8 @@
 					)
 				)
 				(rectangle
-					(start -7.5815 -17.8098)
-					(end 22.8599 -20.3498)
+					(start -7.5815 -15.2698)
+					(end 22.8599 -17.8098)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1418,7 +1419,7 @@
 					)
 				)
 				(text "KEY B"
-					(at 7.874 -19.05 0)
+					(at 7.874 -16.51 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1428,7 +1429,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -3.81 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1446,7 +1447,7 @@
 					)
 				)
 				(pin power_out line
-					(at -10.16 -6.35 0)
+					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1464,7 +1465,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -8.89 0)
+					(at -10.16 -6.35 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1482,7 +1483,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -11.43 0)
+					(at -10.16 -8.89 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1500,7 +1501,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -13.97 0)
+					(at -10.16 -11.43 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1518,7 +1519,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -16.51 0)
+					(at -10.16 -13.97 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1968,7 +1969,7 @@
 					)
 				)
 				(pin power_out line
-					(at 25.4 -3.81 180)
+					(at 25.4 -1.27 180)
 					(length 2.54)
 					(name "3.3V"
 						(effects
@@ -1986,7 +1987,7 @@
 					)
 				)
 				(pin power_out line
-					(at 25.4 -6.35 180)
+					(at 25.4 -3.81 180)
 					(length 2.54)
 					(name "3.3V"
 						(effects
@@ -2004,7 +2005,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -8.89 180)
+					(at 25.4 -6.35 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2022,7 +2023,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -11.43 180)
+					(at 25.4 -8.89 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2040,7 +2041,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -13.97 180)
+					(at 25.4 -11.43 180)
 					(length 2.54)
 					(name "IO/LED_1"
 						(effects
@@ -2058,7 +2059,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -21.59 180)
+					(at 25.4 -19.05 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2076,7 +2077,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -24.13 180)
+					(at 25.4 -21.59 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2094,7 +2095,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -26.67 180)
+					(at 25.4 -24.13 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2112,7 +2113,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 25.4 -29.21 180)
+					(at 25.4 -26.67 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2122,6 +2123,24 @@
 						)
 					)
 					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 25.4 -29.21 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2885,6 +2904,12 @@
 		(uuid "61d90669-7d65-4c7e-9ba0-43a899a6b4bf")
 	)
 	(junction
+		(at 105.41 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65584817-d8b4-45fe-953f-502a46dd9983")
+	)
+	(junction
 		(at 113.03 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2921,12 +2946,6 @@
 		(uuid "aa16e384-3321-499f-9a41-f61ba79382d8")
 	)
 	(junction
-		(at 105.41 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c07dbd3c-c8cd-4ae9-a534-49d48a5c834b")
-	)
-	(junction
 		(at 129.54 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2939,16 +2958,16 @@
 		(uuid "c513792d-c3fa-4f47-87cc-63be2a459848")
 	)
 	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a605a4-3f75-4816-a039-937c954df7dc")
+	)
+	(junction
 		(at 129.54 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8eefab4-1ea6-46b1-92ea-b5d9cca439f3")
-	)
-	(junction
-		(at 105.41 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f155a09d-c3d6-45ee-afa8-b50c7c052af2")
 	)
 	(junction
 		(at 59.69 146.05)
@@ -2965,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "012dcbaa-eaf7-4cd8-bbe6-cb5d2bd664ac")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0278cb9d-778f-4b8f-8877-eea43042e017")
 	)
 	(wire
 		(pts
@@ -3068,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 105.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe49b7e-35b4-483a-9aa6-442857490c27")
-	)
-	(wire
-		(pts
 			(xy 120.65 127) (xy 123.19 127)
 		)
 		(stroke
@@ -3138,7 +3157,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 59.69 93.98)
+			(xy 59.69 68.58) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3358,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 66.04) (xy 105.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72730ac2-b55d-4658-93f6-cc7e9cdf0f50")
+	)
+	(wire
+		(pts
 			(xy 113.03 92.71) (xy 105.41 92.71)
 		)
 		(stroke
@@ -3398,16 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 105.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e191278-0167-4a53-b6f4-5e5016b6c8ff")
-	)
-	(wire
-		(pts
 			(xy 100.33 127) (xy 115.57 127)
 		)
 		(stroke
@@ -3425,16 +3444,6 @@
 			(type default)
 		)
 		(uuid "803bec29-5344-40e1-bca6-c7950aa3f9c0")
-	)
-	(wire
-		(pts
-			(xy 100.33 68.58) (xy 105.41 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80dd330b-13f2-486a-9000-f314ab22b009")
 	)
 	(wire
 		(pts
@@ -3498,16 +3507,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 71.12) (xy 105.41 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f53984b-710f-41db-8634-e1e629cd8982")
-	)
-	(wire
-		(pts
 			(xy 215.9 60.96) (xy 212.09 60.96)
 		)
 		(stroke
@@ -3538,13 +3537,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 71.12) (xy 59.69 71.12)
+			(xy 64.77 68.58) (xy 59.69 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a798fe09-6c07-46fe-8818-8633459a4dc9")
+	)
+	(wire
+		(pts
+			(xy 100.33 68.58) (xy 105.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8297549-fb04-4992-828b-8939db813edc")
 	)
 	(wire
 		(pts
@@ -3605,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "be9b84c0-9aa5-461a-9831-a695150371f0")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f6b512-0050-4bdb-a9a4-5436376cb818")
 	)
 	(wire
 		(pts
@@ -3808,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 105.41 68.58)
+			(xy 105.41 59.69) (xy 105.41 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4672,16 +4691,16 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x405NL")
-		(at 246.38 59.69 180)
+		(at 198.12 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b2f5f6e-6008-48dc-8906-ee005d1323b9")
-		(property "Reference" "FL2"
-			(at 246.761 52.07 0)
+		(uuid "51479a2c-00b4-400c-8cc4-284af880d14e")
+		(property "Reference" "FL1"
+			(at 198.501 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4708,7 @@
 			)
 		)
 		(property "Value" "90 Ohm"
-			(at 246.761 54.61 0)
+			(at 198.501 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4716,7 @@
 			)
 		)
 		(property "Footprint" "Filters:MCZ1210AH_CP"
-			(at 246.38 59.69 0)
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,8 +4724,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_mcz1210ah_en.pdf?ref_disty=mouser"
-			(at 246.38 59.69 0)
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,8 +4733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 mA, 25%"
-			(at 246.38 59.69 0)
+		(property "Description" "Common mode choke, 12A, 380VAC, 4.5mH, 8.5 mOhm, PH9455x405NL"
+			(at 198.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,93 +4743,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "535f220e-72af-409e-a3d6-24e2bfb45fd2")
+			(uuid "655d299f-e945-4626-a712-0364e742ca7f")
 		)
 		(pin "4"
-			(uuid "7e9af83a-4985-4164-a1f7-76cec50f7c58")
+			(uuid "3483b149-70e1-45e9-8f0f-7457becab659")
 		)
 		(pin "2"
-			(uuid "7d3103d8-cd8c-4bd9-b410-bfe7594c0208")
+			(uuid "38449d1f-ef36-4fab-8bd9-9a32733dd6c5")
 		)
 		(pin "1"
-			(uuid "37732db8-ee82-4526-8e94-172991be47e9")
+			(uuid "87d16d95-48de-4312-ab31-1e6953b6cd7d")
 		)
 		(instances
 			(project "PCI2USB"
-				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
-					(reference "FL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x405NL")
-		(at 198.12 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63dfd41e-720b-4c57-9155-f552f741b560")
-		(property "Reference" "FL1"
-			(at 197.739 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "90 Ohm"
-			(at 197.739 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Filters:MCZ1210AH_CP"
-			(at 198.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_mcz1210ah_en.pdf?ref_disty=mouser"
-			(at 198.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 mA, 25%"
-			(at 198.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d20bc176-2084-4620-82f7-6ce79ee38942")
-		)
-		(pin "4"
-			(uuid "5e61db94-b2d6-40e0-91ed-04d02dc9f310")
-		)
-		(pin "2"
-			(uuid "9da25a5f-cdad-4a56-a7fc-18ec1ff336a5")
-		)
-		(pin "1"
-			(uuid "ce445a91-7f26-4061-a083-3c6a270f8f96")
-		)
-		(instances
-			(project ""
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "FL1")
 					(unit 1)
@@ -5013,6 +4958,80 @@
 			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x405NL")
+		(at 246.38 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "990bb653-5c0d-475b-9232-e54d87570992")
+		(property "Reference" "FL2"
+			(at 246.761 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90 Ohm"
+			(at 246.761 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filters:MCZ1210AH_CP"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_mcz1210ah_en.pdf?ref_disty=mouser"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 mA, 25%"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9b007cec-583c-474d-950f-7a81362e0be6")
+		)
+		(pin "4"
+			(uuid "36e6cd49-ab24-4174-b8ba-7d24810dd901")
+		)
+		(pin "2"
+			(uuid "9b0649da-4aed-4869-9abf-00e526453dd6")
+		)
+		(pin "1"
+			(uuid "6480806a-1d64-4902-8284-db3868b3e632")
+		)
+		(instances
+			(project "PCI2USB"
+				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
+					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5274,7 @@
 		(fields_autoplaced yes)
 		(uuid "b77e1460-d01a-43ba-8e43-ba88ab387aba")
 		(property "Reference" "J1"
-			(at 82.55 64.77 0)
+			(at 80.264 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5282,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 82.55 64.77 0)
+			(at 80.264 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" "M2_Edge_connector:M.2_KEY_M_B"
-			(at 74.93 64.77 0)
+			(at 72.644 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,6 +5490,9 @@
 		)
 		(pin "32"
 			(uuid "e5206345-2a3b-4e49-a872-390f1ec8679c")
+		)
+		(pin "28"
+			(uuid "390a6a8e-c90d-4919-a388-8828263d1b9d")
 		)
 		(instances
 			(project ""
