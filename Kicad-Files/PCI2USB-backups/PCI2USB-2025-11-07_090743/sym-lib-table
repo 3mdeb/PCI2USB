@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS61023")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/DC-DC_Converter.pretty/TPS61023.kicad_sym")(options "")(descr ""))
+  (lib (name "TUSB7320")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/TUSB7320.pretty/TUSB7320.kicad_sym")(options "")(descr ""))
+)
