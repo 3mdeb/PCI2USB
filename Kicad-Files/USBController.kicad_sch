@@ -5739,7 +5739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a70df6c2-8456-47d6-95bc-4d122be6fa1a")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 60.96 70.104 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 		(instances
 			(project ""
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/c66d1eec-955e-444d-af71-f46ce926b72b"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)

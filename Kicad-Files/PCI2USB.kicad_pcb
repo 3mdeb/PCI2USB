@@ -476,7 +476,7 @@
 			(uuid "5e7febae-8e1f-4780-928b-8958b9a69d3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -692,7 +692,7 @@
 			(uuid "82b62d63-90a3-4f1b-ae6c-161e52d59270")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -897,7 +897,7 @@
 			(uuid "1bf98015-f69b-44af-90da-546d127ec1a0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2088,7 +2088,7 @@
 			(uuid "45da27e5-593a-42e2-bf60-61fec5593b1d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_S-PWQFN-N100_EP5.5x5.5mm.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/TUSB7320RKMT.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2293,7 +2293,7 @@
 			(uuid "8a450378-cc3d-44b7-9806-a36b8d4a2374")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2498,7 +2498,7 @@
 			(uuid "583f7459-0c00-4afe-be10-19d275e5b10b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2714,7 +2714,7 @@
 			(uuid "7adcbdc3-6ecb-49c3-8b49-33ced9158a58")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3150,7 +3150,7 @@
 			(uuid "3c0a6ace-c9c7-42be-9657-b289f8cec587")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.9.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/EEE-FK1A151P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3158,7 +3158,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -3355,7 +3355,7 @@
 			(uuid "d89ebdf6-606b-4616-94d5-39606c034ec7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3370,14 +3370,14 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2c6035b1-9bd5-4f7f-bb60-bcbe8eaf2ad7")
-		(at 137.4675 119.7 180)
+		(at 137.4675 119.73 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C45"
-			(at 1.48125 2.2 0)
+			(at 1.2675 2.14681 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0ab2c9b8-45af-4443-8ecd-8a05db88c456")
+			(uuid "18e47045-2bfb-4b01-a385-8e438e102e93")
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3390,7 +3390,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23777aa2-04ab-4397-82e2-1aa5038b152b")
+			(uuid "f7af092e-551f-4f9d-88bd-7bbd7503e962")
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3403,7 +3403,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f41d7b30-b2d1-4ea1-9ef6-f8376524032b")
+			(uuid "7a242443-609f-4740-83d3-69d7e450454c")
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3416,7 +3416,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0cb754e-deb3-4717-bc86-5a6afee5d53a")
+			(uuid "4154a0be-776c-4a8a-9cad-97136bdfff63")
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3560,7 +3560,7 @@
 			(uuid "7b87ea70-ced9-4ff0-aa1c-b55043800b61")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3579,7 +3579,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at -1.575 0.05 0)
+			(at 1.45 -0.27 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0dcf1448-c1d5-4cff-aa8f-59208ae259c7")
@@ -3765,7 +3765,7 @@
 			(uuid "67f145bb-dec9-4265-be13-6a5b0da500ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4019,15 +4019,15 @@
 			(uuid "3e60e00d-dd61-4976-96d4-7a73b8ce1b98")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/APHD1608LCGCK.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -237 -110 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4224,7 +4224,7 @@
 			(uuid "5a8404d6-3e8e-450d-8b8c-b647457c45d2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4429,7 +4429,7 @@
 			(uuid "9e59de61-8d92-4dc3-9f85-ee7eddabbe89")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4634,7 +4634,7 @@
 			(uuid "63f9e92c-6621-464e-bcc1-f99153c91769")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4653,7 +4653,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 2.398277 -0.320799 0)
+			(at 2.218277 0.239201 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e0c40690-5fa8-483f-b6a0-8101797825b1")
@@ -4717,7 +4717,7 @@
 			)
 		)
 		(property "Test Voltage" "3V"
-			(at 3.448277 -0.320799 0)
+			(at 3.268277 0.239201 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7b527149-c5e2-4a88-946b-cf7588b3c335")
@@ -4888,15 +4888,15 @@
 			(uuid "84e316b5-10e5-46c7-bc24-8f7f7a86e01f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/APHD1608LCGCK.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -237 -110 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5186,7 +5186,7 @@
 			(uuid "3b2f127a-5cd3-4f5e-8c82-9f60d31f8cd6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Chilisin_BMRx00050515.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/BMRA00050515R47MA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5391,7 +5391,7 @@
 			(uuid "23b9d09a-5260-4b94-93ba-f3c6cc2a95c2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5596,7 +5596,18 @@
 			(uuid "79835ebe-8285-44ff-a5b1-fc6a41b5ac2b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6237,7 +6248,7 @@
 			(uuid "dca35933-63f2-4bf2-8b70-79bb8d7b48be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.9.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/EEE-FK1A151P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6245,7 +6256,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -6476,15 +6487,15 @@
 			(uuid "218b0b1a-c281-4239-a599-b0c29c478837")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/APHD1608LCGCK.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -237 -110 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6493,8 +6504,8 @@
 		(uuid "79369477-22a1-4e11-9be8-4f58ab13e1c8")
 		(at 147.5175 109.0475)
 		(descr "Abracon ABM3B, Miniature Ceramic Crystal, 5.0x3.2mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.abracon.com/Resonators/abm3b.pdf")
-		(property "Reference" "Y2"
-			(at -3.9475 1.7225 0)
+		(property "Reference" "Y1"
+			(at 0.1525 -2.4075 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d13054c8-9f1b-4583-8adc-c66959050a17")
@@ -6696,7 +6707,7 @@
 			(uuid "5d965341-6070-4d44-af87-b9ddc0c31600")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/ABM3B-48.000MHZ-B2-T.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6704,7 +6715,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6901,7 +6912,7 @@
 			(uuid "9328b255-d075-4b8d-b994-28700b59efac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7106,7 +7117,7 @@
 			(uuid "6c22a5ad-ed87-42c9-934e-95b31e0f21c3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7125,7 +7136,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C46"
-			(at 1.4175 2.425 0)
+			(at 1.2675 2.37181 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5de23776-a139-4378-b78c-a0c63bccc608")
@@ -7311,7 +7322,7 @@
 			(uuid "33a6db8e-587c-4bfa-a4e2-623113fdd094")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7330,7 +7341,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at -0.498378 -1.137163 0)
+			(at 0.631622 0.852837 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7e4d045c-2fd9-4924-8ead-6d312d3a79b1")
@@ -7516,7 +7527,7 @@
 			(uuid "fcb3d853-cb25-4c05-9a57-703d324cbd30")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7535,7 +7546,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at 1.917186 0.011895 270)
+			(at 1.917186 0.011895 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2f455e4b-2537-42ba-aac6-6a5b05f7bdbc")
@@ -7926,7 +7937,7 @@
 			(uuid "d2d86885-9bed-4956-886d-ae3f3b54f4e3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7941,7 +7952,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "873ce83e-ace3-46ff-93c1-624d1b240d25")
-		(at 141.1 114.8)
+		(at 140.91 114.81)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -8374,7 +8385,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
-			(at 1.38625 2.62819 0)
+			(at 1.2675 2.575 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d66e58ed-70d7-48cd-bfd3-1df61c2f0159")
@@ -8560,7 +8571,7 @@
 			(uuid "4f6d6ef6-ef63-4122-b2df-8e2b315886f0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8970,15 +8981,15 @@
 			(uuid "1b1b1941-be51-401e-a2b1-18cc243945ab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/BLM18EG221SN1D.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.75 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -9175,7 +9186,7 @@
 			(uuid "a21cc179-fabd-443d-92ae-c71785984e0f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9380,7 +9391,7 @@
 			(uuid "a09b5a39-c0a7-45d6-b7c5-1ff4af934241")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9585,7 +9596,7 @@
 			(uuid "9ec044f0-5681-4519-a66a-f999d0343bfc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10597,15 +10608,15 @@
 			(uuid "6b94e61a-e572-4639-9054-d3f4046700a9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/APHD1608LCGCK.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -237 -110 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -10801,7 +10812,7 @@
 			(uuid "d29f7848-4614-4991-ae2a-7a4cd0475e4a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11510,7 +11521,7 @@
 			(uuid "45e3bf89-d7b8-4f33-9143-909b5ef66649")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/TPS2560DRC.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11715,7 +11726,18 @@
 			(uuid "8a42efc0-0353-444e-8c7c-f5aba21d4100")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11749,6 +11771,7 @@
 			(at 0 1.16 180)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6780ea4b-ff46-47eb-8227-d161a4113aeb")
 			(effects
 				(font
@@ -11919,7 +11942,7 @@
 			(uuid "58219a4a-fe35-4ffb-9b6c-8ad96aea74c5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12124,7 +12147,7 @@
 			(uuid "59eb1d9e-876e-4fa8-bcf4-736c153882f9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12329,7 +12352,7 @@
 			(uuid "e640bfa0-bd95-46b9-9458-50c45c4c6348")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12534,7 +12557,7 @@
 			(uuid "421cf33d-96ef-4c8d-b343-4d33a7c72ee5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12553,7 +12576,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R27"
-			(at 2.0175 -0.025 0)
+			(at 2.07 0.2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9c42ea13-1da8-4b81-943d-c49dcc513247")
@@ -12739,7 +12762,7 @@
 			(uuid "5decc98c-eaaa-4225-b7aa-6d486f941a8b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12944,7 +12967,7 @@
 			(uuid "a00d10ee-7e18-4e15-b8fb-87326ebc97a6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12963,7 +12986,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
-			(at -0.2 1.4 0)
+			(at 0.53 1.39 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7bd9fc78-8ec5-4afd-9576-a2ce6469304a")
@@ -13027,7 +13050,7 @@
 			)
 		)
 		(property "Test Voltage" "3V"
-			(at 0.65 1.35 0)
+			(at 1.38 1.34 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2cb37dba-ff60-4c32-896e-a01f754f2890")
@@ -13198,15 +13221,15 @@
 			(uuid "a7aa96aa-ca39-4ca3-b7d1-01e608cf17ee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/APHD1608LCGCK.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -237 -110 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13403,7 +13426,7 @@
 			(uuid "807dbd84-7190-402e-b8db-3eb628bb548c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13608,7 +13631,7 @@
 			(uuid "0416a96a-f331-4190-a1d1-0988d2d89c11")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13832,7 +13855,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 1.9 0 0)
+			(at 1.631978 0.576785 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4d8dcc3c-6db0-4c13-a1a0-b7abe8ccf837")
@@ -14031,7 +14054,7 @@
 			(uuid "03d44dea-0759-46c6-9169-a5f112f282d1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14048,7 +14071,7 @@
 		(uuid "ed43f21d-10b8-4fa4-ac68-f7efa6132185")
 		(at 146.2 98.3925 90)
 		(property "Reference" "J2"
-			(at -6.9575 -1.15 0)
+			(at -6.8075 -0.28 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7ea2941b-7541-451c-a06c-068759f4a71e")
@@ -14263,7 +14286,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 1.7 0.2 0)
+			(at 1.666473 0.435268 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a6374c0b-8f87-4805-9a96-d64211a025a5")
@@ -14449,7 +14472,7 @@
 			(uuid "76d15fe1-c911-48cf-927c-845d06dd10ad")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14654,7 +14677,7 @@
 			(uuid "f5578759-0ece-4eb4-834f-692617e29332")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14859,7 +14882,7 @@
 			(uuid "83afd8cd-1d90-49f3-bc53-a13b146c3ee6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14878,7 +14901,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 1.929151 0.054688 270)
+			(at 1.929151 0.054688 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fbbc7f65-ee6c-4c58-836b-805955a84b1e")
@@ -15479,7 +15502,7 @@
 			(uuid "e71e719f-f2b8-4120-a735-6c3eebd0fca0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15689,7 +15712,7 @@
 			(uuid "db4088cb-48a3-4f70-bf45-fc5dda6e5f1b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15899,7 +15922,7 @@
 			(uuid "6fb96526-b20f-4f34-8a03-74593b8b3e9e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16109,7 +16132,7 @@
 			(uuid "b07e29f4-639b-472e-a1f1-33637d5a457a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/fuse0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16319,7 +16342,7 @@
 			(uuid "00580842-4297-4bec-a682-ae4232d7bb0c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16529,7 +16552,7 @@
 			(uuid "2221afdc-6264-4e3a-a393-4b9215bd28c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17283,7 +17306,7 @@
 			(uuid "ce039da9-13cf-4a15-a49a-6f1a29627d8b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/TPS74401RGWRM3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17493,7 +17516,7 @@
 			(uuid "641ad51c-d0c8-496c-ae89-57daf799a9f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17703,7 +17726,7 @@
 			(uuid "303fcc93-315f-4785-adc7-c093d4de3614")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/fuse0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17913,7 +17936,7 @@
 			(uuid "3036301a-6d5c-49d7-94b1-6cecdf97ba00")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18123,7 +18146,7 @@
 			(uuid "919962af-68c2-4c9d-b909-06996bbe1df8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18333,7 +18356,7 @@
 			(uuid "d9041167-01cc-4301-a388-a24a1c6f6533")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18540,15 +18563,15 @@
 			(uuid "3761cf17-186c-4f70-a64a-b37c667bf69b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/EXC-24CE900U.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.75 -0.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -18757,6 +18780,17 @@
 			(uuid "5071703d-a9b5-4362-a37d-8da3d334c5ea")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/TPS61023DRLR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "B.Cu")
@@ -18956,7 +18990,19 @@
 			(uuid "8c849682-b908-48c0-bea6-17fc652bb789")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19166,7 +19212,18 @@
 			(uuid "d25bef14-874f-42e5-9e76-d5d2718b3b54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19376,7 +19433,7 @@
 			(uuid "9d81fd65-8d8f-4b05-a1b4-d14ceebbd271")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19586,7 +19643,7 @@
 			(uuid "34e20674-e078-499f-a821-f2555e05fe83")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19796,7 +19853,7 @@
 			(uuid "e16b99ec-fb43-4779-a5db-0fb08b1fae95")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20006,7 +20063,7 @@
 			(uuid "d21a23b9-116c-413a-8a28-62f2d3c79ec4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20216,7 +20273,7 @@
 			(uuid "8af443dc-ceb1-4504-9851-22181fbf48a5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20426,7 +20483,7 @@
 			(uuid "8c528d5f-5057-45c7-a3c0-52af03fdcd43")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20636,7 +20693,7 @@
 			(uuid "4a41ddc6-f2b9-4666-8095-14ff5ca0659f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20846,7 +20903,7 @@
 			(uuid "b8900352-2a64-4693-baf3-2c12f257a7a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21056,7 +21113,7 @@
 			(uuid "454a8cb8-1489-40ed-80a0-7fa42bac9014")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21266,7 +21323,7 @@
 			(uuid "b110a7f3-9a6a-49ec-a660-88c53e125e14")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21476,7 +21533,7 @@
 			(uuid "e70fbf42-91ca-4eb1-ac38-e7057488d790")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21686,7 +21743,7 @@
 			(uuid "a1b2cb76-9df0-472c-94e1-9a53f88b1721")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0603_1608Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/fuse0603.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21968,7 +22025,7 @@
 			(uuid "f6d4e75c-e3cf-4bee-b55a-f735886f4d15")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/PJSD05TS.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21976,7 +22033,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -22178,7 +22235,7 @@
 			(uuid "c3e493c5-6c01-4a28-bd34-dd419a882f6a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22460,7 +22517,7 @@
 			(uuid "d3235d86-bc44-47d4-a56a-99b409f3d352")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/PJSD03TS.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22468,7 +22525,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -22670,7 +22727,7 @@
 			(uuid "87a642a0-1468-4b4d-acb8-d9acbc237f11")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22880,7 +22937,7 @@
 			(uuid "1f31d51f-4d70-4d5a-9822-afd8bf64ea94")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23090,7 +23147,7 @@
 			(uuid "7e0469b7-cd5c-43b3-a7be-5da3d55f9109")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23297,15 +23354,15 @@
 			(uuid "fccf95f3-edde-49f7-8795-c33cb0e80580")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonMode_Wurth_WE-CNSW-1206.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/EXC-24CE900U.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0.75 -0.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -23507,7 +23564,7 @@
 			(uuid "a690742e-8dd4-4c1f-bbf9-9c9eda3d9cd5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23927,7 +23984,7 @@
 			(uuid "fdff8274-83b7-4be0-9ae5-6047ab27652b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24137,7 +24194,7 @@
 			(uuid "5521cd8d-764f-4229-9160-5495b396885f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24347,7 +24404,7 @@
 			(uuid "bdb2d5ca-d4c6-46c4-8522-dbd497a6c87f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24557,7 +24614,7 @@
 			(uuid "f31e0471-2203-430b-b62b-043dfac6fdb7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24767,7 +24824,7 @@
 			(uuid "2871e245-07b7-4027-a8a4-2e337fdf9272")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24977,7 +25034,7 @@
 			(uuid "72a2dd80-0f4f-414f-9ddb-191663da18ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25187,7 +25244,7 @@
 			(uuid "3a4609e9-47b6-4d5f-b729-f6ce269b3b92")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25397,7 +25454,7 @@
 			(uuid "d21714ea-b8f9-47b5-a12a-5c0b705983be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25607,7 +25664,7 @@
 			(uuid "dcffdcb6-32d7-4c5c-8a9c-7d8a5d274b47")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/resistor0402.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25817,7 +25874,7 @@
 			(uuid "88e872cf-a131-4986-804a-204a60420f73")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KIPRJMOD}/Custom Libraries/3dmodels/capacitor0805.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26027,17 +26084,6 @@
 			(uuid "df6290fb-3dde-4e2c-b88e-fc0fb7c75b23")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(gr_poly
 		(pts
@@ -26926,14 +26972,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "e49d087c-af6d-41ec-96de-d65e346e4325")
-	)
-	(segment
-		(start 136.9 119.7)
-		(end 136.9 120.7)
-		(width 0.75)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "e5041753-4994-4b4b-a6d7-2e342f963cf9")
 	)
 	(segment
 		(start 136.96 103.0275)
@@ -38827,41 +38865,42 @@
 				(xy 135.82642 118.29567) (xy 135.82642 118.295672) (xy 135.7995 118.431004) (xy 135.7995 118.568995)
 				(xy 135.82642 118.704327) (xy 135.82642 118.704329) (xy 135.879222 118.831806) (xy 135.879228 118.831817)
 				(xy 135.955885 118.946541) (xy 136.053458 119.044114) (xy 136.168182 119.120771) (xy 136.168193 119.120777)
-				(xy 136.215283 119.140282) (xy 136.295672 119.17358) (xy 136.431007 119.2005) (xy 137.436613 119.2005)
-				(xy 137.494804 119.219407) (xy 137.530768 119.268907) (xy 137.530768 119.330093) (xy 137.525556 119.342974)
-				(xy 137.477067 119.44216) (xy 137.467679 119.506601) (xy 137.467 119.511261) (xy 137.467 119.583209)
-				(xy 137.463627 119.60883) (xy 137.4595 119.624231) (xy 137.4595 119.624234) (xy 137.4595 120.624234)
-				(xy 137.4595 121.624234) (xy 137.4595 122.624234) (xy 137.4595 123.624234) (xy 137.4595 124.775766)
-				(xy 137.463627 124.791167) (xy 137.467 124.81679) (xy 137.467 124.888742) (xy 137.477067 124.95784)
-				(xy 137.488924 124.982093) (xy 137.529174 125.064426) (xy 137.529175 125.064427) (xy 137.529176 125.064429)
-				(xy 137.613071 125.148324) (xy 137.613072 125.148324) (xy 137.613074 125.148326) (xy 137.613076 125.148327)
-				(xy 137.643512 125.163207) (xy 137.687486 125.20575) (xy 137.698055 125.266016) (xy 137.671182 125.320984)
-				(xy 137.670035 125.32215) (xy 137.5995 125.392685) (xy 137.599496 125.39269) (xy 137.533609 125.506809)
-				(xy 137.533608 125.506814) (xy 137.4995 125.634108) (xy 137.4995 125.765892) (xy 137.517662 125.833673)
-				(xy 137.533609 125.89319) (xy 137.599496 126.007309) (xy 137.599498 126.007311) (xy 137.5995 126.007314)
-				(xy 137.692686 126.1005) (xy 137.692688 126.100501) (xy 137.69269 126.100503) (xy 137.80681 126.16639)
-				(xy 137.806808 126.16639) (xy 137.806812 126.166391) (xy 137.806814 126.166392) (xy 137.934108 126.2005)
-				(xy 137.93411 126.2005) (xy 138.06589 126.2005) (xy 138.065892 126.2005) (xy 138.193186 126.166392)
-				(xy 138.193188 126.16639) (xy 138.19319 126.16639) (xy 138.307309 126.100503) (xy 138.307309 126.100502)
-				(xy 138.307314 126.1005) (xy 138.329998 126.077815) (xy 138.384513 126.05004) (xy 138.444945 126.059611)
-				(xy 138.47 126.077814) (xy 138.492686 126.1005) (xy 138.492688 126.100501) (xy 138.49269 126.100503)
-				(xy 138.60681 126.16639) (xy 138.606808 126.16639) (xy 138.606812 126.166391) (xy 138.606814 126.166392)
-				(xy 138.734108 126.2005) (xy 138.73411 126.2005) (xy 138.86589 126.2005) (xy 138.865892 126.2005)
-				(xy 138.993186 126.166392) (xy 138.993188 126.16639) (xy 138.99319 126.16639) (xy 139.107309 126.100503)
-				(xy 139.107309 126.100502) (xy 139.107314 126.1005) (xy 139.2005 126.007314) (xy 139.203292 126.002478)
-				(xy 139.26639 125.89319) (xy 139.26639 125.893188) (xy 139.266392 125.893186) (xy 139.3005 125.765892)
-				(xy 139.3005 125.670544) (xy 139.319407 125.612353) (xy 139.368907 125.576389) (xy 139.430093 125.576389)
-				(xy 139.469501 125.600538) (xy 139.891102 126.022139) (xy 140.294335 126.425372) (xy 140.322112 126.479889)
-				(xy 140.312541 126.540321) (xy 140.269276 126.583586) (xy 140.224286 126.594376) (xy 136.521228 126.592688)
-				(xy 136.463046 126.573754) (xy 136.440367 126.550742) (xy 136.413687 126.512908) (xy 136.413685 126.512905)
-				(xy 136.2895 126.393623) (xy 136.2895 126.393622) (xy 136.17111 126.317077) (xy 136.144896 126.300128)
-				(xy 136.144893 126.300127) (xy 136.144892 126.300126) (xy 136.011405 126.246402) (xy 135.985152 126.235836)
-				(xy 135.985151 126.235835) (xy 135.985149 126.235835) (xy 135.835665 126.206882) (xy 135.816098 126.203092)
-				(xy 135.816097 126.203091) (xy 135.816092 126.203091) (xy 135.789148 126.203078) (xy 135.78874 126.203053)
-				(xy 135.782727 126.203053) (xy 135.6495 126.203053) (xy 135.591309 126.184146) (xy 135.555345 126.134646)
-				(xy 135.5505 126.104053) (xy 135.5505 111.205974) (xy 135.552157 111.200872) (xy 135.551042 111.195625)
-				(xy 135.561478 111.172185) (xy 135.569407 111.147783) (xy 135.573747 111.144629) (xy 135.575929 111.13973)
-				(xy 135.598145 111.126903) (xy 135.618907 111.111819) (xy 135.624272 111.111819) (xy 135.628917 111.109137)
+				(xy 136.215283 119.140282) (xy 136.295672 119.17358) (xy 136.431007 119.2005) (xy 137.45524 119.2005)
+				(xy 137.513431 119.219407) (xy 137.549395 119.268907) (xy 137.549395 119.330093) (xy 137.532412 119.357806)
+				(xy 137.533941 119.358898) (xy 137.529174 119.365573) (xy 137.488689 119.448387) (xy 137.477067 119.47216)
+				(xy 137.473642 119.495672) (xy 137.467 119.541261) (xy 137.467 119.583209) (xy 137.463627 119.60883)
+				(xy 137.4595 119.624231) (xy 137.4595 119.624234) (xy 137.4595 120.624234) (xy 137.4595 121.624234)
+				(xy 137.4595 122.624234) (xy 137.4595 123.624234) (xy 137.4595 124.775766) (xy 137.463627 124.791167)
+				(xy 137.467 124.81679) (xy 137.467 124.888742) (xy 137.477067 124.95784) (xy 137.488924 124.982093)
+				(xy 137.529174 125.064426) (xy 137.529175 125.064427) (xy 137.529176 125.064429) (xy 137.613071 125.148324)
+				(xy 137.613072 125.148324) (xy 137.613074 125.148326) (xy 137.613076 125.148327) (xy 137.643512 125.163207)
+				(xy 137.687486 125.20575) (xy 137.698055 125.266016) (xy 137.671182 125.320984) (xy 137.670035 125.32215)
+				(xy 137.5995 125.392685) (xy 137.599496 125.39269) (xy 137.533609 125.506809) (xy 137.533608 125.506814)
+				(xy 137.4995 125.634108) (xy 137.4995 125.765892) (xy 137.517662 125.833673) (xy 137.533609 125.89319)
+				(xy 137.599496 126.007309) (xy 137.599498 126.007311) (xy 137.5995 126.007314) (xy 137.692686 126.1005)
+				(xy 137.692688 126.100501) (xy 137.69269 126.100503) (xy 137.80681 126.16639) (xy 137.806808 126.16639)
+				(xy 137.806812 126.166391) (xy 137.806814 126.166392) (xy 137.934108 126.2005) (xy 137.93411 126.2005)
+				(xy 138.06589 126.2005) (xy 138.065892 126.2005) (xy 138.193186 126.166392) (xy 138.193188 126.16639)
+				(xy 138.19319 126.16639) (xy 138.307309 126.100503) (xy 138.307309 126.100502) (xy 138.307314 126.1005)
+				(xy 138.329998 126.077815) (xy 138.384513 126.05004) (xy 138.444945 126.059611) (xy 138.47 126.077814)
+				(xy 138.492686 126.1005) (xy 138.492688 126.100501) (xy 138.49269 126.100503) (xy 138.60681 126.16639)
+				(xy 138.606808 126.16639) (xy 138.606812 126.166391) (xy 138.606814 126.166392) (xy 138.734108 126.2005)
+				(xy 138.73411 126.2005) (xy 138.86589 126.2005) (xy 138.865892 126.2005) (xy 138.993186 126.166392)
+				(xy 138.993188 126.16639) (xy 138.99319 126.16639) (xy 139.107309 126.100503) (xy 139.107309 126.100502)
+				(xy 139.107314 126.1005) (xy 139.2005 126.007314) (xy 139.203292 126.002478) (xy 139.26639 125.89319)
+				(xy 139.26639 125.893188) (xy 139.266392 125.893186) (xy 139.3005 125.765892) (xy 139.3005 125.670544)
+				(xy 139.319407 125.612353) (xy 139.368907 125.576389) (xy 139.430093 125.576389) (xy 139.469501 125.600538)
+				(xy 139.891102 126.022139) (xy 140.294335 126.425372) (xy 140.322112 126.479889) (xy 140.312541 126.540321)
+				(xy 140.269276 126.583586) (xy 140.224286 126.594376) (xy 136.521228 126.592688) (xy 136.463046 126.573754)
+				(xy 136.440367 126.550742) (xy 136.413687 126.512908) (xy 136.413685 126.512905) (xy 136.2895 126.393623)
+				(xy 136.2895 126.393622) (xy 136.17111 126.317077) (xy 136.144896 126.300128) (xy 136.144893 126.300127)
+				(xy 136.144892 126.300126) (xy 136.011405 126.246402) (xy 135.985152 126.235836) (xy 135.985151 126.235835)
+				(xy 135.985149 126.235835) (xy 135.835665 126.206882) (xy 135.816098 126.203092) (xy 135.816097 126.203091)
+				(xy 135.816092 126.203091) (xy 135.789148 126.203078) (xy 135.78874 126.203053) (xy 135.782727 126.203053)
+				(xy 135.6495 126.203053) (xy 135.591309 126.184146) (xy 135.555345 126.134646) (xy 135.5505 126.104053)
+				(xy 135.5505 111.205974) (xy 135.552157 111.200872) (xy 135.551042 111.195625) (xy 135.561478 111.172185)
+				(xy 135.569407 111.147783) (xy 135.573747 111.144629) (xy 135.575929 111.13973) (xy 135.598145 111.126903)
+				(xy 135.618907 111.111819) (xy 135.624272 111.111819) (xy 135.628917 111.109137)
 			)
 		)
 		(filled_polygon

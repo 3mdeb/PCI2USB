@@ -7,4 +7,5 @@
   (lib (name "M2_Edge_connector")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/M2_Edge_connector.pretty")(options "")(descr ""))
   (lib (name "Filters")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/Filters.pretty")(options "")(descr ""))
   (lib (name "Crystals")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/Crystals.pretty")(options "")(descr ""))
+  (lib (name "TPS61023DRLR")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/LIB_TPS61023DRLR/TPS61023DRLR.pretty")(options "")(descr ""))
 )
