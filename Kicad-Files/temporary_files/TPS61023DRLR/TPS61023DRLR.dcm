@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61023DRLR
+D Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125
+K
+F http://www.ti.com/lit/ds/symlink/tps61023.pdf
+$ENDCMP
+#
+#End Doc Library

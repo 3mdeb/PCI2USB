@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2560DRCT
+D Power Switch ICs - Power Distribution Dual Ch Prec Adj Current-Ltd Pwr Sw
+K
+F https://www.ti.com/lit/ds/symlink/tps2561.pdf?ts=1660388423064&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library

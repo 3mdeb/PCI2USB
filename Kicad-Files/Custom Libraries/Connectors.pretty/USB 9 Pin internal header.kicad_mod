@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "J2"
-		(at -6.9575 -1.15 270)
+	(property "Reference" "J$"
+		(at -0.25 -3.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b766c0c4-77ba-472f-a215-10cf37dd8199")
+		(uuid "bbf98d79-c0a5-4146-a5ee-4517814e0f4e")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f250ea9-4587-4bff-bf50-87bae6b3f261")
+		(uuid "0b3b19bb-00cb-4176-81dd-71a72517fe97")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "36bbfb52-9b75-41ea-8dab-de6e2bdcf313")
+		(uuid "8077d120-e8cd-47bb-a115-2b6f94a23389")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc4cec75-699b-490c-a0d5-5d08d60b9380")
+		(uuid "887353b3-cb0e-4d58-91b0-82f04476172d")
 		(effects
 			(font
 				(size 1 1)
@@ -95,6 +95,19 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f76b3c35-6942-4240-9be0-9a9125737eb4")
+	)
+	(fp_text user "USB Internal header"
+		(at -7.95 4.6 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "abb40445-78eb-40f0-b23e-f1df5679ed61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at -5.0475 1.2)

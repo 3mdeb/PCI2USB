@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS61023DRLR
+#/4689961/1767147/2.50/6/3/Integrated Circuit
+DEF TPS61023DRLR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TPS61023DRLR" 950 200 50 H V L CNN
+F2 "SOTFL50P160X60-6N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps61023.pdf" 950 0 50 H I L CNN
+F4 "Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125" 950 -100 50 H I L CNN "Description"
+F5 "0.6" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS61023DRLR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS61023DRLR" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLR?qs=BJlw7L4Cy7%2FfEnwYuWeGOg%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS61023DRLR" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps61023drlr/texas-instruments?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X FB 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1100 0 200 L 50 50 0 0 P
+X SW 5 1100 -100 200 L 50 50 0 0 P
+X VOUT 6 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

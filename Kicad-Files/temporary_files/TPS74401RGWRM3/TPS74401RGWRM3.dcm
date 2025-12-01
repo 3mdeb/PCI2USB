@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS74401RGWRM3
+D TPS74401 3.0A, Ultra-LDO With Programmable Soft-Start , RGW (VQFN, 20) , 1.5mA ,-0.3V ~ 6V , -55C ~ +150C
+K
+F https://www.ti.com/lit/ds/symlink/tps74401.pdf?ts=1748825387292
+$ENDCMP
+#
+#End Doc Library

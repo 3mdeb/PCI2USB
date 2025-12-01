@@ -2,30 +2,50 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "TUSB7320"
+	(symbol "TUSB7320RKMT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U2"
-			(at -61.214 62.484 0)
+		(property "Reference" "IC"
+			(at -64.008 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Value" "TUSB7320"
-			(at -61.214 59.944 0)
+		(property "Value" "TUSB7320RKMT"
+			(at -64.008 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "TUSB7320:Texas_tusb7320"
-			(at 58.42 -60.96 0)
+		(property "Footprint" "TUSB7320:TUSB7320RKMT"
+			(at -10.922 -55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb7320.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1660222825942&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+			(at -84.582 -150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Interface IC SuperSpd USB 2-Port xHCI Host Cntrlr"
+			(at 72.136 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,16 +53,77 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tusb7320&fileType=pdf"
-			(at 76.2 -63.5 0)
+		(property "Height" "0.8"
+			(at 46.99 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 3.0 xHCI Host Controller"
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 46.99 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TUSB7320RKMT"
+			(at 46.99 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TUSB7320RKMT"
+			(at 46.99 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TUSB7320RKMT?qs=QtI0yD1FyOOt4kq3Z7P%252B4A%3D%3D"
+			(at 46.99 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 46.99 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 46.99 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TUSB7320RKMT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,28 +132,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "USB HUB PCIE"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Texas*S?PWQFN?N100*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TUSB7320_0_1"
+		(symbol "TUSB7320RKMT_0_1"
 			(rectangle
-				(start -58.42 58.42)
-				(end 58.42 -58.42)
+				(start -59.69 -7.62)
+				(end 57.15 -124.46)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -82,9 +145,9 @@
 				)
 			)
 		)
-		(symbol "TUSB7320_1_1"
+		(symbol "TUSB7320RKMT_1_1"
 			(pin input line
-				(at -63.5 45.72 0)
+				(at -64.77 -20.32 0)
 				(length 5.08)
 				(name "GRST#"
 					(effects
@@ -102,7 +165,7 @@
 				)
 			)
 			(pin output line
-				(at -63.5 40.64 0)
+				(at -64.77 -25.4 0)
 				(length 5.08)
 				(name "PCIE_TXP"
 					(effects
@@ -120,7 +183,7 @@
 				)
 			)
 			(pin output line
-				(at -63.5 38.1 0)
+				(at -64.77 -27.94 0)
 				(length 5.08)
 				(name "PCIE_TXN"
 					(effects
@@ -138,7 +201,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 35.56 0)
+				(at -64.77 -30.48 0)
 				(length 5.08)
 				(name "PCIE_RXP"
 					(effects
@@ -156,7 +219,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 33.02 0)
+				(at -64.77 -33.02 0)
 				(length 5.08)
 				(name "PCIE_RXN"
 					(effects
@@ -174,7 +237,7 @@
 				)
 			)
 			(pin input clock
-				(at -63.5 30.48 0)
+				(at -64.77 -35.56 0)
 				(length 5.08)
 				(name "PCIE_REFCLKP"
 					(effects
@@ -192,7 +255,7 @@
 				)
 			)
 			(pin input clock
-				(at -63.5 27.94 0)
+				(at -64.77 -38.1 0)
 				(length 5.08)
 				(name "PCIE_REFCLKN"
 					(effects
@@ -210,7 +273,7 @@
 				)
 			)
 			(pin output line
-				(at -63.5 25.4 0)
+				(at -64.77 -40.64 0)
 				(length 5.08)
 				(name "WAKE#"
 					(effects
@@ -228,7 +291,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -63.5 22.86 0)
+				(at -64.77 -43.18 0)
 				(length 5.08)
 				(name "CLKREQ#"
 					(effects
@@ -246,7 +309,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 20.32 0)
+				(at -64.77 -45.72 0)
 				(length 5.08)
 				(name "PERST#"
 					(effects
@@ -264,7 +327,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 15.24 0)
+				(at -64.77 -50.8 0)
 				(length 5.08)
 				(name "XI"
 					(effects
@@ -282,7 +345,7 @@
 				)
 			)
 			(pin output line
-				(at -63.5 12.7 0)
+				(at -64.77 -53.34 0)
 				(length 5.08)
 				(name "XO"
 					(effects
@@ -300,7 +363,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 10.16 0)
+				(at -64.77 -55.88 0)
 				(length 5.08)
 				(name "VSS_OSC"
 					(effects
@@ -318,7 +381,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 5.08 0)
+				(at -64.77 -60.96 0)
 				(length 5.08)
 				(name "FREQSEL"
 					(effects
@@ -336,7 +399,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 -2.54 0)
+				(at -64.77 -68.58 0)
 				(length 5.08)
 				(name "JTAG_RST#"
 					(effects
@@ -354,7 +417,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -63.5 -5.08 0)
+				(at -64.77 -71.12 0)
 				(length 5.08)
 				(name "JTAG_TCK"
 					(effects
@@ -372,7 +435,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -63.5 -7.62 0)
+				(at -64.77 -73.66 0)
 				(length 5.08)
 				(name "JTAG_TMS"
 					(effects
@@ -390,7 +453,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -63.5 -10.16 0)
+				(at -64.77 -76.2 0)
 				(length 5.08)
 				(name "JTAG_TDO"
 					(effects
@@ -408,7 +471,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -63.5 -12.7 0)
+				(at -64.77 -78.74 0)
 				(length 5.08)
 				(name "JTAG_TDI"
 					(effects
@@ -426,7 +489,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -17.78 0)
+				(at -64.77 -83.82 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -444,7 +507,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -20.32 0)
+				(at -64.77 -86.36 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -462,7 +525,7 @@
 				)
 			)
 			(pin input line
-				(at -63.5 -25.4 0)
+				(at -64.77 -91.44 0)
 				(length 5.08)
 				(name "AUX_DET"
 					(effects
@@ -480,7 +543,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -30.48 0)
+				(at -64.77 -96.52 0)
 				(length 5.08)
 				(name "R1EXT"
 					(effects
@@ -498,7 +561,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -33.02 0)
+				(at -64.77 -99.06 0)
 				(length 5.08)
 				(name "R1EXTRTN"
 					(effects
@@ -516,7 +579,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -38.1 0)
+				(at -64.77 -104.14 0)
 				(length 5.08)
 				(name "GPIO0"
 					(effects
@@ -534,7 +597,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -40.64 0)
+				(at -64.77 -106.68 0)
 				(length 5.08)
 				(name "GPIO1"
 					(effects
@@ -552,7 +615,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -43.18 0)
+				(at -64.77 -109.22 0)
 				(length 5.08)
 				(name "GPIO2"
 					(effects
@@ -570,7 +633,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -63.5 -45.72 0)
+				(at -64.77 -111.76 0)
 				(length 5.08)
 				(name "GPIO3"
 					(effects
@@ -588,7 +651,7 @@
 				)
 			)
 			(pin power_in line
-				(at -43.18 63.5 270)
+				(at -44.45 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -606,7 +669,7 @@
 				)
 			)
 			(pin power_in line
-				(at -40.64 63.5 270)
+				(at -41.91 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -624,7 +687,7 @@
 				)
 			)
 			(pin power_in line
-				(at -38.1 63.5 270)
+				(at -39.37 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -642,7 +705,7 @@
 				)
 			)
 			(pin power_in line
-				(at -35.56 63.5 270)
+				(at -36.83 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -660,7 +723,7 @@
 				)
 			)
 			(pin power_in line
-				(at -33.02 63.5 270)
+				(at -34.29 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -678,7 +741,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 63.5 270)
+				(at -31.75 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -696,7 +759,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 63.5 270)
+				(at -29.21 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -714,7 +777,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 63.5 270)
+				(at -26.67 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -732,7 +795,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 63.5 270)
+				(at -24.13 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -750,7 +813,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -22.86 -58.42 90)
+				(at -24.13 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -769,7 +832,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 63.5 270)
+				(at -21.59 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -787,7 +850,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -58.42 90)
+				(at -21.59 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -806,7 +869,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 63.5 270)
+				(at -19.05 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -824,7 +887,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -58.42 90)
+				(at -19.05 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -843,7 +906,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 63.5 270)
+				(at -16.51 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -861,7 +924,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 -58.42 90)
+				(at -16.51 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -880,7 +943,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 63.5 270)
+				(at -13.97 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -898,7 +961,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 -58.42 90)
+				(at -13.97 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -917,7 +980,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 63.5 270)
+				(at -11.43 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -935,7 +998,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -58.42 90)
+				(at -11.43 -124.46 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -954,7 +1017,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 63.5 270)
+				(at -8.89 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -972,7 +1035,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 63.5 270)
+				(at -6.35 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -990,7 +1053,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 63.5 270)
+				(at -3.81 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -1008,7 +1071,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 63.5 270)
+				(at -1.27 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -1026,7 +1089,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -63.5 90)
+				(at -1.27 -129.54 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1044,7 +1107,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 63.5 270)
+				(at 1.27 -2.54 270)
 				(length 5.08)
 				(name "VDD11"
 					(effects
@@ -1062,7 +1125,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 -63.5 90)
+				(at 3.81 -129.54 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1081,7 +1144,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 63.5 270)
+				(at 6.35 -2.54 270)
 				(length 5.08)
 				(name "VDD33"
 					(effects
@@ -1099,7 +1162,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -63.5 90)
+				(at 6.35 -129.54 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1118,7 +1181,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 63.5 270)
+				(at 8.89 -2.54 270)
 				(length 5.08)
 				(name "VDD33"
 					(effects
@@ -1136,7 +1199,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -63.5 90)
+				(at 8.89 -129.54 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1155,7 +1218,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 63.5 270)
+				(at 11.43 -2.54 270)
 				(length 5.08)
 				(name "VDD33"
 					(effects
@@ -1173,7 +1236,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -63.5 90)
+				(at 11.43 -129.54 90)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1192,7 +1255,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 63.5 270)
+				(at 13.97 -2.54 270)
 				(length 5.08)
 				(name "VDD33"
 					(effects
@@ -1210,7 +1273,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 63.5 270)
+				(at 16.51 -2.54 270)
 				(length 5.08)
 				(name "VDD33"
 					(effects
@@ -1228,7 +1291,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 63.5 270)
+				(at 21.59 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1246,7 +1309,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 63.5 270)
+				(at 24.13 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1264,7 +1327,7 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 63.5 270)
+				(at 26.67 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1282,7 +1345,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 63.5 270)
+				(at 29.21 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1300,7 +1363,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 63.5 270)
+				(at 31.75 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1318,7 +1381,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 63.5 270)
+				(at 34.29 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1336,7 +1399,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 63.5 270)
+				(at 36.83 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1354,7 +1417,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 63.5 270)
+				(at 39.37 -2.54 270)
 				(length 5.08)
 				(name "VDDA_3P3"
 					(effects
@@ -1372,7 +1435,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 63.5 45.72 180)
+				(at 62.23 -20.32 180)
 				(length 5.08)
 				(name "USB_DP_DN1"
 					(effects
@@ -1390,7 +1453,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 63.5 43.18 180)
+				(at 62.23 -22.86 180)
 				(length 5.08)
 				(name "USB_DM_DN1"
 					(effects
@@ -1408,7 +1471,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 40.64 180)
+				(at 62.23 -25.4 180)
 				(length 5.08)
 				(name "USB_SSTXP_DN1"
 					(effects
@@ -1426,7 +1489,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 38.1 180)
+				(at 62.23 -27.94 180)
 				(length 5.08)
 				(name "USB_SSTXN_DN1"
 					(effects
@@ -1444,7 +1507,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 35.56 180)
+				(at 62.23 -30.48 180)
 				(length 5.08)
 				(name "USB_SSRXP_DN1"
 					(effects
@@ -1462,7 +1525,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 33.02 180)
+				(at 62.23 -33.02 180)
 				(length 5.08)
 				(name "USB_SSRXN_DN1"
 					(effects
@@ -1480,7 +1543,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 63.5 27.94 180)
+				(at 62.23 -38.1 180)
 				(length 5.08)
 				(name "USB_DP_DN2"
 					(effects
@@ -1498,7 +1561,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 63.5 25.4 180)
+				(at 62.23 -40.64 180)
 				(length 5.08)
 				(name "USB_DM_DN2"
 					(effects
@@ -1516,7 +1579,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 22.86 180)
+				(at 62.23 -43.18 180)
 				(length 5.08)
 				(name "USB_SSTXP_DN2"
 					(effects
@@ -1534,7 +1597,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 20.32 180)
+				(at 62.23 -45.72 180)
 				(length 5.08)
 				(name "USB_SSTXN_DN2"
 					(effects
@@ -1552,7 +1615,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 17.78 180)
+				(at 62.23 -48.26 180)
 				(length 5.08)
 				(name "USB_SSRXP_DN2"
 					(effects
@@ -1570,7 +1633,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 15.24 180)
+				(at 62.23 -50.8 180)
 				(length 5.08)
 				(name "USB_SSRXN_DN2"
 					(effects
@@ -1588,7 +1651,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 10.16 180)
+				(at 62.23 -55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1607,7 +1670,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 7.62 180)
+				(at 62.23 -58.42 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1626,7 +1689,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 5.08 180)
+				(at 62.23 -60.96 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1645,7 +1708,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 2.54 180)
+				(at 62.23 -63.5 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1664,7 +1727,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 0 180)
+				(at 62.23 -66.04 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1683,7 +1746,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -2.54 180)
+				(at 62.23 -68.58 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1702,7 +1765,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -7.62 180)
+				(at 62.23 -73.66 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1721,7 +1784,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -10.16 180)
+				(at 62.23 -76.2 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1740,7 +1803,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -12.7 180)
+				(at 62.23 -78.74 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1759,7 +1822,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -15.24 180)
+				(at 62.23 -81.28 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1778,7 +1841,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -17.78 180)
+				(at 62.23 -83.82 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1797,7 +1860,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -20.32 180)
+				(at 62.23 -86.36 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -1816,7 +1879,7 @@
 				)
 			)
 			(pin output line
-				(at 63.5 -25.4 180)
+				(at 62.23 -91.44 180)
 				(length 5.08)
 				(name "PWRON1#"
 					(effects
@@ -1834,7 +1897,7 @@
 				)
 			)
 			(pin input line
-				(at 63.5 -27.94 180)
+				(at 62.23 -93.98 180)
 				(length 5.08)
 				(name "OVERCUR1#"
 					(effects
@@ -1852,7 +1915,7 @@
 				)
 			)
 			(pin output line
-				(at 63.5 -30.48 180)
+				(at 62.23 -96.52 180)
 				(length 5.08)
 				(name "PWRON2#"
 					(effects
@@ -1870,7 +1933,7 @@
 				)
 			)
 			(pin input line
-				(at 63.5 -33.02 180)
+				(at 62.23 -99.06 180)
 				(length 5.08)
 				(name "OVERCUR2#"
 					(effects
@@ -1888,10 +1951,10 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -35.56 180)
+				(at 62.23 -101.6 180)
 				(length 5.08)
 				(hide yes)
-				(name "PWRON3#"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1907,10 +1970,10 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -38.1 180)
+				(at 62.23 -104.14 180)
 				(length 5.08)
 				(hide yes)
-				(name "OVERCUR3#"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1926,10 +1989,10 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -40.64 180)
+				(at 62.23 -106.68 180)
 				(length 5.08)
 				(hide yes)
-				(name "PWRON4#"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1945,10 +2008,10 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -43.18 180)
+				(at 62.23 -109.22 180)
 				(length 5.08)
 				(hide yes)
-				(name "OVERCUR4#"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1964,7 +2027,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 63.5 -48.26 180)
+				(at 62.23 -114.3 180)
 				(length 5.08)
 				(name "SMI"
 					(effects
