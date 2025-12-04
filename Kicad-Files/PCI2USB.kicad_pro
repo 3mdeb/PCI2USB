@@ -29,7 +29,7 @@
         "fab_text_size_h": 0.508,
         "fab_text_size_v": 0.508,
         "fab_text_thickness": 0.1016,
-        "fab_text_upright": false,
+        "fab_text_upright": true,
         "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 0.508,
@@ -38,17 +38,17 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
         "silk_text_size_h": 0.508,
         "silk_text_size_v": 0.508,
         "silk_text_thickness": 0.1016,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -60,115 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|138278562|105605365|c1632c0f-38cd-48c9-aa07-79965dbe6a1d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|146677500|111330000|fe4b1f97-531e-4111-9644-d96354938563|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|136845906|116160000|1e40fa81-f541-4fd4-a520-6d93e188f7fa|8802c47a-363f-4dc4-8533-1ec6ffe6838b",
-          ""
-        ],
-        [
-          "silk_overlap|137235000|116160000|7663e41d-3512-4b41-8c18-bbfe00332cff|8802c47a-363f-4dc4-8533-1ec6ffe6838b",
-          ""
-        ],
-        [
-          "silk_overlap|141284688|106138470|7c643f7c-ac63-4922-b2ea-f5d3af1a664e|a7856291-a97c-41f9-9822-95752389d714",
-          ""
-        ],
-        [
-          "silk_overlap|142374444|99644593|6617777d-1c36-478b-933a-25030ac66e52|945e8811-9cd2-49f2-9bb0-f0745e80ef24",
-          ""
-        ],
-        [
-          "silk_overlap|142749095|123260000|403355ba-e734-468f-800a-568c2089a986|85866596-0a83-4d65-90e4-cbab7e9b3977",
-          ""
-        ],
-        [
-          "silk_overlap|146015835|117740000|03657d1f-6978-47b1-a13b-f2cb639785a6|22389738-6363-442c-aa3c-06a77b8a10c4",
-          ""
-        ],
-        [
-          "silk_overlap|146015835|118690000|5a3961d7-7da8-4322-b0dd-717e007fe6d2|9621967d-75c1-4d82-9bba-bc9b910d963c",
-          ""
-        ],
-        [
-          "silk_overlap|147990000|117544801|057c91e2-ea34-41c6-a81c-a30befca5c11|12583147-bd65-4649-a351-ceaa40adf977",
-          ""
-        ],
-        [
-          "silk_overlap|147990000|118264801|054fc8e2-7063-4f1c-8f33-8bf20f43c214|22b1f383-98de-4408-bacb-f67bc9614111",
-          ""
-        ],
-        [
-          "silk_overlap|148001665|119440000|80132276-5e20-4dfa-95be-c9ee93f128b1|e36d676f-724d-4ec9-98f2-f144b3cc4d70",
-          ""
-        ],
-        [
-          "silk_overlap|148204172|116364801|455ae732-0c89-472f-b636-e6f62a9cb7bd|599a0186-c58d-4152-9e3b-d581a3b83268",
-          ""
-        ],
-        [
-          "silk_overlap|148227502|120390000|736d7dcd-9dc0-49d7-b661-bf387e4d7609|a2a7915a-683c-416c-ab9a-87d8f0c3a00a",
-          ""
-        ],
-        [
-          "silk_overlap|150415835|116585052|70810f14-bb7f-47b6-a884-19368df4b2cf|91deb6fe-7087-40d1-9046-1b5ef263f6fe",
-          ""
-        ],
-        [
-          "silk_overlap|150415835|117530103|07c430e6-1f12-49a7-b26c-8817e28406fc|fbbdc1b7-d560-4caa-b5b5-53f33f5946d6",
-          ""
-        ],
-        [
-          "silk_overlap|150415835|118475155|1fad812c-b425-4af3-9cd4-071e699d5ab6|4710c5c0-02bc-4267-9401-ffd29df81692",
-          ""
-        ],
-        [
-          "silk_overlap|150415835|119195155|0fa8f818-8f64-496f-9521-ad75c13372d8|7ee7a627-1aaf-4f94-a58f-a50978e06dec",
-          ""
-        ],
-        [
-          "silk_overlap|150415835|120365258|26a149fe-0736-4438-82cc-7380a313e4d0|58b0b6f4-758e-4cae-8dde-1cac2860c8b2",
-          ""
-        ],
-        [
-          "silk_overlap|150794760|125190752|376dbd87-b5be-4f38-b114-87b991087673|95a859cc-5c30-4053-9c44-b89d13426320",
-          ""
-        ],
-        [
-          "silk_overlap|151554760|125190752|465bc781-f3d3-4c9b-8127-7168a804a245|726349dd-9c47-414a-9a97-e842cd714426",
-          ""
-        ],
-        [
-          "silk_overlap|152355002|117744801|1e4866d8-4c26-4ce0-a684-634c8f705e13|ef36a216-1ad1-4d10-ad72-5a154289652a",
-          ""
-        ],
-        [
-          "silk_overlap|152355002|118464801|6984356a-5bbf-4cd9-94cd-ca72dfc8bee4|c5866301-e594-423b-bf4f-63dd71c3bce9",
-          ""
-        ],
-        [
-          "silk_overlap|152694760|125190752|e1aa61c5-8471-42d7-b146-553197ee073c|e1ff8229-3936-4fba-9fa7-414513e4bcd5",
-          ""
-        ],
-        [
-          "silk_overlap|153301723|109535799|bc988515-6fb8-4ef3-b3ea-4663fc59c4d2|fe523664-e595-4613-adb2-86a5f8db6ed7",
-          ""
-        ],
-        [
-          "silk_overlap|154160000|108598768|01fe83b4-dcaf-4bb1-9775-79d17b4409a3|bf095be6-6775-460a-8e27-e7d61dbec77c",
-          ""
-        ],
-        [
-          "silk_overlap|155042327|107973208|6a3b486d-7617-46fa-ac22-ee0b35051aad|f1d185e6-3a06-4c4d-92ab-6ecb1e5b26fb",
-          ""
-        ],
-        [
-          "silk_overlap|155191619|123280000|3abefab8-67df-4823-9ffe-f34027ae9588|4ef07f43-9b7d-4dbf-b66e-84f5845c4825",
+          "starved_thermal|155329000|94188200|51f7aa81-5226-40e1-9680-31589bcf7a50|98119f1e-e504-4f63-8e27-a3f3d8d3af25|In1.Cu",
           ""
         ]
       ],
@@ -198,7 +90,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -236,22 +128,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.48768,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.1143,
+        "min_silk_clearance": 0.1016,
         "min_text_height": 0.508,
         "min_text_thickness": 0.1016,
-        "min_through_hole_diameter": 0.1,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.099822,
+        "min_track_width": 0.0508,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.299974,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -301,12 +193,14 @@
       ],
       "track_widths": [
         0.0,
+        0.0762,
         0.1016,
         0.127,
         0.2,
         0.22,
         0.25,
         0.35,
+        0.508,
         0.6,
         0.75,
         1.0
@@ -341,6 +235,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -593,7 +491,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -604,10 +502,52 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.0508,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.0762,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PCIE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.0762,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PCIE_CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.1016,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -615,7 +555,72 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PCIE",
+        "pattern": "PCIE_TXN"
+      },
+      {
+        "netclass": "PCIE",
+        "pattern": "PCIE_TXP"
+      },
+      {
+        "netclass": "PCIE",
+        "pattern": "SATA-B+"
+      },
+      {
+        "netclass": "PCIE",
+        "pattern": "SATA-B-"
+      },
+      {
+        "netclass": "PCIE",
+        "pattern": "PCIE_RXN"
+      },
+      {
+        "netclass": "PCIE",
+        "pattern": "PCIE_RXP"
+      },
+      {
+        "netclass": "PCIE_CLK",
+        "pattern": "PCIE_REFCLKP"
+      },
+      {
+        "netclass": "PCIE_CLK",
+        "pattern": "PCIE_REFCLKN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D1-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

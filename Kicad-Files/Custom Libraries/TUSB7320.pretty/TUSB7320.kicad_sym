@@ -7,21 +7,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at -64.008 -0.762 0)
+			(at 38.608 -127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(property "Value" "TUSB7320RKMT"
-			(at -64.008 -3.302 0)
+		(property "Value" "TUSB7320"
+			(at 39.624 -131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TUSB7320:TUSB7320RKMT"
@@ -1045,6 +1045,24 @@
 					)
 				)
 				(number "B40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -129.54 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A53"
 					(effects
 						(font
 							(size 1.27 1.27)

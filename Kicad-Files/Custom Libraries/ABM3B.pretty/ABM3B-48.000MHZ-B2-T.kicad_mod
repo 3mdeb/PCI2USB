@@ -5,50 +5,54 @@
 	(layer "F.Cu")
 	(descr "ABM3B")
 	(tags "Crystal or Oscillator")
-	(property "Reference" "Y**"
+	(property "Reference" "Y1"
 		(at -1.65 -3.4 0)
 		(layer "F.SilkS")
-		(uuid "939de387-5153-479e-ae7e-6e6bfe313771")
+		(uuid "c9758b5b-9d49-4e25-b018-c8e484c5184b")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 	)
-	(property "Value" "ABM3B-48.000MHZ-B2-T"
+	(property "Value" "48 MHz"
 		(at -0.347 -0.03 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c526e8a8-b821-42ea-bdd0-cab3938f2038")
+		(uuid "de0ef698-cf60-428a-8c9b-6452432857ac")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.pl/datasheet/3/184/1/abm3b.pdf"
+		(at 0 0.207915 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd456462-f28b-4c03-8338-1b0b2406b7b4")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
+				(bold yes)
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Description" "18 pF, 50 Ohm"
+		(at 0 0.207915 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f9e0d281-bdf8-4879-ae72-50a156502089")
+		(uuid "bc91dc78-509a-4d41-87f1-fd502f588cc3")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "45d3d5b9-aa4b-4392-ab78-73608350f464")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 	)
@@ -57,81 +61,122 @@
 		(start -0.75 -1.6)
 		(end 0.75 -1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1016)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "98ec61c1-9212-46d1-97c5-72621ceb355c")
+		(uuid "7da997c4-280b-4e3b-8d51-36d3e1c6277e")
 	)
 	(fp_line
 		(start -0.75 1.6)
 		(end 0.75 1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1016)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3a5daa0e-ee34-4413-9138-9bf121d98f4a")
+		(uuid "717f3a7a-d601-4651-8211-1fa119f928f1")
 	)
 	(fp_circle
 		(center -2.141 2.106)
 		(end -2.141 2.16503)
 		(stroke
-			(width 0.254)
+			(width 0.1016)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "01c1a718-7bb1-458f-8960-113824bee14d")
+		(uuid "5edb1a1b-a696-47b1-99af-a6ff3b0a0f8f")
+	)
+	(fp_line
+		(start -3.6 -2.4)
+		(end -3.6 2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "98de90dc-33ac-4ac3-b085-59ad93ae9442")
+	)
+	(fp_line
+		(start -3.6 -2.4)
+		(end 3.55 -2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0d5660d-51e9-452b-8d74-e5b2e9dc58e0")
+	)
+	(fp_line
+		(start -3.6 2.45)
+		(end 3.55 2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b59a15b-efde-43cc-bf88-e28c6a7190ef")
+	)
+	(fp_line
+		(start 3.55 -2.4)
+		(end 3.55 2.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "32aa10ac-ac61-433a-9bf1-80ef58cf9913")
 	)
 	(fp_line
 		(start -2.5 -1.6)
 		(end 2.5 -1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7441de20-32ff-4e6a-a90d-2a96702b062a")
+		(uuid "2e199804-46c2-44c2-83d5-2a8dd5715b40")
 	)
 	(fp_line
 		(start -2.5 1.6)
 		(end -2.5 -1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1af5545d-ba08-4243-86f8-83c131b45b1c")
+		(uuid "d4a853d3-9d3d-44a4-9e4f-12903176aad3")
 	)
 	(fp_line
 		(start 2.5 -1.6)
 		(end 2.5 1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8f12361f-3495-4db5-ab9a-1624e2df6bbb")
+		(uuid "f5d220bf-84b7-443d-9475-57ac7fdb690a")
 	)
 	(fp_line
 		(start 2.5 1.6)
 		(end -2.5 1.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "28e5b15b-a0be-4f9f-95fa-3db9b6aa880e")
+		(uuid "35d7366b-9ef6-4b98-9031-db334e582134")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.05 4 0)
+		(at 0 0.207915 0)
 		(layer "F.Fab")
-		(uuid "8dcb68f0-265b-45d7-98b8-e3cafba10361")
+		(uuid "02f27988-67d4-4d2a-941d-5ac79ffe0fcd")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 	)
@@ -139,25 +184,25 @@
 		(at -2 1.2 90)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cb7c4289-dcd1-45ff-95ce-512848659f1e")
+		(uuid "f89a5ab3-afd2-468b-9bb5-625abdfb1bae")
 	)
 	(pad "2" smd rect
 		(at 2 1.2 90)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e25c0533-cf9d-4e77-ace2-a20963f17d72")
+		(uuid "624ac502-5d09-4540-983d-4bafb33bce81")
 	)
 	(pad "3" smd rect
 		(at 2 -1.2 90)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "478a9741-9e66-4a2b-b308-437330ba2b1a")
+		(uuid "9bdf219e-3ba4-4b14-ab49-8d70cf929ff3")
 	)
 	(pad "4" smd rect
 		(at -2 -1.2 90)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c7a4080f-4e73-409a-bbd9-aed9e1fea990")
+		(uuid "29f55ef5-0ff2-41da-93a6-6e067af816b4")
 	)
 	(embedded_fonts no)
 	(model "ABM3B-48.000MHZ-B2-T.stp"
