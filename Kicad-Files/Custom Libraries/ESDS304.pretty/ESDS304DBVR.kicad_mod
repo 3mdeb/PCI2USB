@@ -5,22 +5,23 @@
 	(layer "F.Cu")
 	(descr "ESDS304DBVR-1")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at 0 2.9 0)
+	(property "Reference" "D8"
+		(at 2.715 -1.315 180)
 		(layer "F.SilkS")
-		(uuid "8d9871d9-0b82-4bfa-b674-6597f6c57e15")
+		(hide yes)
+		(uuid "825f3e27-f399-4964-b896-1b12922c2d17")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.508 0.508)
+				(thickness 0.1016)
 			)
 		)
 	)
 	(property "Value" "ESDS304DBVR"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ff86238c-51a9-49b7-bbf3-6f02a2164846")
+		(uuid "f602382a-95eb-420f-953f-316035cc1857")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,11 +29,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/esds304"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbf385b6-f665-4694-bf42-23320d644f2f")
+		(uuid "82c4014d-e552-434d-a2c1-b0f24a4fe688")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,15 +41,99 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "3.6V Data-Line Surge and 30kV ESD Protection Diode Array"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7854fe76-ccce-4340-94fb-cd28ae31361a")
+		(uuid "654c72ca-bc2d-4599-b763-d511f9428526")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c96fbfb-07f9-46ee-af64-d6988adabb79")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e41a55fe-5574-47ca-9849-410becdfab1e")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ESDS304DBVR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ca2087c-5aeb-4293-aba7-d24b19e22788")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-ESDS304DBVR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de081c7c-5bf9-4bfb-acc6-1fbe702655fd")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESDS304DBVR?qs=qSfuJ%252Bfl%2Fd5QAKguZ%2FVGmw%3D%3D"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb62e457-925a-4370-bed3-889814386896")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Arrow Part Number" "ESDS304DBVR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12104521-eda5-4f77-a757-9d098189142e")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esds304dbvr/texas-instruments?utm_currency=USD&region=nac"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5637f6e8-a9ae-49f3-8a88-9d8ddf67d9b2")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
 			)
 		)
 	)
@@ -61,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "532a30b3-d0e7-48f0-94d1-1f7ee1085109")
+		(uuid "eca33d00-8b72-441f-91ba-f056b26b265c")
 	)
 	(fp_line
 		(start -0.3 1.45)
@@ -71,7 +156,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ea266c86-2686-4dcc-b9af-51d3e4cf19e3")
+		(uuid "d053af24-f1ee-469f-9f29-9c62bfd5b1d6")
 	)
 	(fp_line
 		(start 0.3 -1.45)
@@ -81,7 +166,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5766eb89-50dc-421d-8b03-4c54d10c30b2")
+		(uuid "aff67bf6-28ae-494a-a3be-6a4f4872c64a")
 	)
 	(fp_line
 		(start 0.3 1.45)
@@ -91,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7f7b633f-bfd9-41e5-ab00-457e9fed44ff")
+		(uuid "27424eaa-9788-4bd4-8fc1-5e68a93a9b46")
 	)
 	(fp_line
 		(start -2.1 -1.775)
@@ -101,7 +186,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7c9eb05d-f4fc-4465-acf0-0351d200f4ba")
+		(uuid "193fcd69-56a0-4ae5-a66c-aafc74b21df7")
 	)
 	(fp_line
 		(start -2.1 1.775)
@@ -111,7 +196,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "516809a4-d131-403e-9716-e7125de68550")
+		(uuid "68d5bc04-c539-40cb-b2af-659a3bb65c18")
 	)
 	(fp_line
 		(start 2.1 -1.775)
@@ -121,7 +206,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dc045109-27a5-4aaf-9248-5951fafe9e94")
+		(uuid "18216c53-f40e-475a-abc7-182e795a4a88")
 	)
 	(fp_line
 		(start 2.1 1.775)
@@ -131,7 +216,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "94ff770c-7e62-41cc-a17e-05097edccb6f")
+		(uuid "a3cc7eea-b341-467f-a80c-9581aac770bd")
 	)
 	(fp_line
 		(start -0.8 -1.45)
@@ -141,7 +226,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "23ebd918-e8ec-4f77-8f91-3f2bfa30f1fb")
+		(uuid "3bddee8e-b08e-4a91-a6e0-51a7ab8a0f67")
 	)
 	(fp_line
 		(start -0.8 -0.5)
@@ -151,7 +236,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9fdfa8a6-a4a6-4c23-a319-18311a0fe3ae")
+		(uuid "cabf0172-4b06-440b-a716-f584d95ba7ec")
 	)
 	(fp_line
 		(start -0.8 1.45)
@@ -161,7 +246,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dd633750-9a10-4cdc-b475-5defe5859656")
+		(uuid "f40d3979-e14e-4c4e-be6e-c56872add17b")
 	)
 	(fp_line
 		(start 0.8 -1.45)
@@ -171,7 +256,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6932c16b-81fa-45c7-9f94-11ce3d12044b")
+		(uuid "b41c4fbf-b3f2-42fa-b55c-ac42c7b9eea9")
 	)
 	(fp_line
 		(start 0.8 1.45)
@@ -181,16 +266,16 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1ebdb486-3ee8-41e9-8e68-05c730a90434")
+		(uuid "070b3e91-a4ff-4ef7-8ee8-e3f006f3f43c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.4 5 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "e3d9d663-f4a9-42d9-8cf3-a5ca235ef8ca")
+		(uuid "74a56f0d-ad2b-4064-be64-6244eaa1336f")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.508 0.508)
+				(thickness 0.1016)
 			)
 		)
 	)
@@ -198,31 +283,31 @@
 		(at -1.25 -0.95 90)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9267e991-dada-4a8b-8af4-6aa6ab2ca8e6")
+		(uuid "634a8beb-45fe-4985-8c00-d2d76911ec2d")
 	)
 	(pad "2" smd rect
 		(at -1.25 0 90)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3d639dea-b8aa-4994-840e-1a9aafca1be3")
+		(uuid "b10e54d5-22c9-4aa3-9a72-60d9972b1438")
 	)
 	(pad "3" smd rect
 		(at -1.25 0.95 90)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "855c5d5a-1e6f-4aa5-bef5-740029ab69f4")
+		(uuid "a97896bf-dc73-4d2a-aa9a-28c9d2c41dc5")
 	)
 	(pad "4" smd rect
-		(at 1.25 0.95 90)
-		(size 0.6 1.2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5dec29b6-dbc3-4c86-b87b-12ae63e11099")
-	)
-	(pad "5" smd rect
 		(at 1.25 -0.95 90)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0bdaa97b-9416-429a-b82b-a00309af98ff")
+		(uuid "e8ac4c69-9373-41c9-8e1e-2fab8ac70fff")
+	)
+	(pad "5" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68ee4300-9c79-4014-8657-1638740c930c")
 	)
 	(embedded_fonts no)
 	(model "ESDS304DBVR.stp"

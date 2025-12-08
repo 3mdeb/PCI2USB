@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PCI2USB")
-		(date "2025-11-17")
+		(date "2025-12-08")
 		(rev "1.0.0")
 		(company "3mdeb Sp. z o.o    Jakub Sobota")
 		(comment 1 "https://www.ti.com/lit/ug/sllu146d/sllu146d.pdf")
@@ -2831,7 +2831,7 @@
 		)
 	)
 	(rectangle
-		(start 26.67 40.64)
+		(start 25.4 40.64)
 		(end 142.24 190.5)
 		(stroke
 			(width 0)
