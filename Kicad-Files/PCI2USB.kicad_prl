@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "Front Layers",
+    "active_layer": 2,
+    "active_layer_preset": "Back Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -46,7 +46,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002223",
+    "visible_layers": "00000000_00000000_00000002_2200888c",
     "zone_display_mode": 0
   },
   "git": {
@@ -110,8 +110,8 @@
     "group_by_netclass": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
-    "sort_ascending": false,
-    "sorting_column": 1
+    "sort_ascending": true,
+    "sorting_column": 2
   },
   "open_jobsets": [],
   "project": {
