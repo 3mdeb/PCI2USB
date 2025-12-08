@@ -588,8 +588,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 23.114 -14.478 90)
+			(property "Reference" "D8"
+				(at 15.2401 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -598,7 +598,7 @@
 				)
 			)
 			(property "Value" "ESDS304DBVR"
-				(at 20.828 -23.876 90)
+				(at 12.7001 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
