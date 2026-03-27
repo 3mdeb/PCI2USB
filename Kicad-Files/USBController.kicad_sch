@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCI2USB")
-		(date "2025-11-13")
-		(rev "1.0.0")
+		(date "2026-03-27")
+		(rev "1.1.0")
 		(company "3mdeb Sp. z o.o    Jakub Sobota")
 		(comment 1 "https://www.ti.com/lit/ds/symlink/tusb7340.pdf")
 		(comment 2 "https://www.ti.com/lit/ug/sllu146d/sllu146d.pdf")

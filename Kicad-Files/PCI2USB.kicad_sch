@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCI2USB")
-		(date "2025-12-08")
-		(rev "1.0.0")
+		(date "2026-03-27")
+		(rev "1.1.0")
 		(company "3mdeb Sp. z o.o    Jakub Sobota")
 		(comment 1 "https://www.ti.com/lit/ug/sllu146d/sllu146d.pdf")
 		(comment 2 "https://wiki.congatec.com/wiki/M.2_Pinout_Descriptions_and_Reference_Designs_(AN43)")
