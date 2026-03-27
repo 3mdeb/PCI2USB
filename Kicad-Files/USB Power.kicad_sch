@@ -3737,7 +3737,7 @@
 			(uuid "3a3aeb4d-e618-4e95-8e0b-530bec06ad60")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "#PWR024")
 					(unit 1)
@@ -3977,7 +3977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.824 89.916 90)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.536 89.154 90)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.586 169.164 90)
 			(effects
 				(font
@@ -4553,7 +4553,7 @@
 			(uuid "f0cc28c6-5328-4457-b407-e8b13fcafeeb")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "C12")
 					(unit 1)
@@ -4589,7 +4589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.634 50.546 90)
 			(effects
 				(font
@@ -4794,7 +4794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.296 89.154 90)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.024 146.304 90)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.754 151.384 90)
 			(effects
 				(font
@@ -5201,7 +5201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 208.28 78.74 0)
 			(effects
 				(font
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 115.57 158.75 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.604 50.546 90)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 58.42 177.546 0)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 			(uuid "24db48aa-2a16-4328-a9ca-4c5d12712cb5")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "U1")
 					(unit 1)
@@ -5808,7 +5808,7 @@
 			(uuid "93eca876-bae3-4d25-9f31-4bc13ec2f11c")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "#PWR029")
 					(unit 1)
@@ -6120,7 +6120,7 @@
 			(uuid "0a7c65ac-a742-413b-86d3-f091cf9ef3fc")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "U2")
 					(unit 1)
@@ -6153,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 223.52 78.74 0)
 			(effects
 				(font
@@ -6337,7 +6337,7 @@
 			(uuid "32d2b430-29cf-4e88-a5dd-5df162efb8e4")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03/629b4a48-e6d7-42dc-ba97-ab0ac334522d"
 					(reference "D2")
 					(unit 1)
@@ -6438,7 +6438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.614 134.874 90)
 			(effects
 				(font
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 129.54 147.32 0)
 			(effects
 				(font
@@ -6707,7 +6707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.57 125.984 0)
 			(effects
 				(font
@@ -6776,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 139.7 0)
 			(effects
 				(font

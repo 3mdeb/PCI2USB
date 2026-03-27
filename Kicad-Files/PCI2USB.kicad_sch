@@ -4354,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 85.09 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 			(uuid "5451dc0c-d521-47e4-9ca7-5a293f955df0")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "FL2")
 					(unit 1)
@@ -4765,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 92.71 0)
 			(effects
 				(font
@@ -5073,7 +5073,7 @@
 			(uuid "e698017d-d7cf-4b95-b1b0-b639860b5e0e")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "#PWR019")
 					(unit 1)
@@ -5239,7 +5239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 88.9 0)
 			(effects
 				(font
@@ -5340,7 +5340,7 @@
 			(uuid "2f707b00-838f-4bd2-b4b1-800a182a8acd")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "#PWR041")
 					(unit 1)
@@ -5432,7 +5432,7 @@
 			(uuid "4e0f8ffa-bbfe-4b97-a9b7-88f3d9994e99")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "J2")
 					(unit 1)
@@ -5541,7 +5541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 77.47 0)
 			(effects
 				(font
@@ -5609,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -6085,7 +6085,7 @@
 			(uuid "5db97dab-d25e-4679-955d-95aedfaf8c2c")
 		)
 		(instances
-			(project ""
+			(project "PCI2USB"
 				(path "/513f496d-ec7a-4c1e-814f-35a10c718f03"
 					(reference "J1")
 					(unit 1)
